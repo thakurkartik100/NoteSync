@@ -1,0 +1,1757 @@
+{
+  "fileNamespace": {
+    "syllabus_test_1": {
+      "fileId": "syllabus_test_1",
+      "filename": "Distributed Systems Lecture Notes Unit 1-4.pdf",
+      "title": "Distributed Systems Lecture Notes Unit 1-4",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 500,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 0,
+      "primaryChecksum": null,
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "status": "PENDING"
+        },
+        {
+          "replicaNode": "E&TC",
+          "status": "PENDING"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "syllabus_test_1_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T11:07:48.609Z"
+    },
+    "res_1791885063827_qf4qa": {
+      "fileId": "res_1791885063827_qf4qa",
+      "filename": "test.txt",
+      "title": "Test Resource CE",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791885063827_qf4qa_c0",
+          "primary": "CE",
+          "replica": "IT",
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T09:51:03.830Z"
+    },
+    "res_1791885073056_t62ub": {
+      "fileId": "res_1791885073056_t62ub",
+      "filename": "test.txt",
+      "title": "Test Resource IT",
+      "subject": "Information Technology",
+      "chunkSizeKb": 0,
+      "primaryNode": "IT",
+      "replicaNode": "E&TC",
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791885073056_t62ub_c0",
+          "primary": "IT",
+          "replica": "E&TC",
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T09:51:13.058Z"
+    },
+    "res_1791885078344_m3yk6": {
+      "fileId": "res_1791885078344_m3yk6",
+      "filename": "test.txt",
+      "title": "Test Resource E&TC",
+      "subject": "Electronics & Telecommunication",
+      "chunkSizeKb": 0,
+      "primaryNode": "E&TC",
+      "replicaNode": "CE",
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791885078344_m3yk6_c0",
+          "primary": "E&TC",
+          "replica": "CE",
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T09:51:18.346Z"
+    },
+    "res_1791885884346_9a0mx": {
+      "fileId": "res_1791885884346_9a0mx",
+      "filename": "repl_test.txt",
+      "title": "Replication Test CE",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "c22e9ec0616d2a1e235caa42a670670981cfcdfd025f6de049f07b84cac18787",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791885884352-68112483.txt",
+          "replicaChecksum": "c22e9ec0616d2a1e235caa42a670670981cfcdfd025f6de049f07b84cac18787",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:04:44.355Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791885884360-619952562.txt",
+          "replicaChecksum": "c22e9ec0616d2a1e235caa42a670670981cfcdfd025f6de049f07b84cac18787",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:04:44.363Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791885884346_9a0mx_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:04:44.364Z"
+    },
+    "res_1791885884384_t92jh": {
+      "fileId": "res_1791885884384_t92jh",
+      "filename": "repl_test.txt",
+      "title": "Replication Test IT",
+      "subject": "Information Technology",
+      "chunkSizeKb": 0,
+      "primaryNode": "IT",
+      "primaryChecksum": "c50e4a0e43d597ab5c1040fd0e654287b0c6fff0336f98958d77510e55d8cd94",
+      "replicas": [
+        {
+          "replicaNode": "CE",
+          "replicaFilePath": "/uploads/CE/REPLICA_CE_1791885884387-658189212.txt",
+          "replicaChecksum": "c50e4a0e43d597ab5c1040fd0e654287b0c6fff0336f98958d77510e55d8cd94",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:04:44.389Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791885884391-649690355.txt",
+          "replicaChecksum": "c50e4a0e43d597ab5c1040fd0e654287b0c6fff0336f98958d77510e55d8cd94",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:04:44.393Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791885884384_t92jh_c0",
+          "primary": "IT",
+          "replicas": [
+            "CE",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:04:44.393Z"
+    },
+    "res_1791885884404_kkwqr": {
+      "fileId": "res_1791885884404_kkwqr",
+      "filename": "repl_test.txt",
+      "title": "Replication Test E&TC",
+      "subject": "Electronics & Telecommunication",
+      "chunkSizeKb": 0,
+      "primaryNode": "E&TC",
+      "primaryChecksum": "2e500afdc6c2013b47e46200541cc476bf6dd7f7e954468f0b8b6918e713153b",
+      "replicas": [
+        {
+          "replicaNode": "CE",
+          "replicaFilePath": "/uploads/CE/REPLICA_CE_1791885884407-424491229.txt",
+          "replicaChecksum": "2e500afdc6c2013b47e46200541cc476bf6dd7f7e954468f0b8b6918e713153b",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:04:44.409Z"
+        },
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791885884411-177018154.txt",
+          "replicaChecksum": "2e500afdc6c2013b47e46200541cc476bf6dd7f7e954468f0b8b6918e713153b",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:04:44.412Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791885884404_kkwqr_c0",
+          "primary": "E&TC",
+          "replicas": [
+            "CE",
+            "IT"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:04:44.412Z"
+    },
+    "res_1791885884555_piqf0": {
+      "fileId": "res_1791885884555_piqf0",
+      "filename": "offline_test.txt",
+      "title": "Offline Node Test",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "c5f4f7454d56a428549c8672d256f8a4bd098b84e77543313f8c9576a0c0b144",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "status": "REPLICATED",
+          "error": "Node IT is OFFLINE",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791886589276-351348713.txt",
+          "replicaChecksum": "c5f4f7454d56a428549c8672d256f8a4bd098b84e77543313f8c9576a0c0b144",
+          "verified": true,
+          "timestamp": "2026-10-13T10:16:29.280Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791885884558-136786730.txt",
+          "replicaChecksum": "c5f4f7454d56a428549c8672d256f8a4bd098b84e77543313f8c9576a0c0b144",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:04:44.560Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791885884555_piqf0_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:04:44.560Z"
+    },
+    "res_1791885884571_9h3b7": {
+      "fileId": "res_1791885884571_9h3b7",
+      "filename": "loop_test.txt",
+      "title": "Loop Test",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "da534391aad34c2660a7e58f24be05e9b8a7fab8bee39b4b345bc7913bdc2f5a",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791885884574-406441281.txt",
+          "replicaChecksum": "da534391aad34c2660a7e58f24be05e9b8a7fab8bee39b4b345bc7913bdc2f5a",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:04:44.575Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791885884576-480495547.txt",
+          "replicaChecksum": "da534391aad34c2660a7e58f24be05e9b8a7fab8bee39b4b345bc7913bdc2f5a",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:04:44.578Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791885884571_9h3b7_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:04:44.578Z"
+    },
+    "res_1791886137544_4kqoq": {
+      "fileId": "res_1791886137544_4kqoq",
+      "filename": "repl_test.txt",
+      "title": "Replication Test CE",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "513d2949d972db320d1279724a17a58f0bd8401789e13769b043101c1dd586f6",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791886137546-258161071.txt",
+          "replicaChecksum": "513d2949d972db320d1279724a17a58f0bd8401789e13769b043101c1dd586f6",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:08:57.548Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791886137549-313129310.txt",
+          "replicaChecksum": "513d2949d972db320d1279724a17a58f0bd8401789e13769b043101c1dd586f6",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:08:57.551Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886137544_4kqoq_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:08:57.552Z"
+    },
+    "res_1791886137568_2rlxl": {
+      "fileId": "res_1791886137568_2rlxl",
+      "filename": "repl_test.txt",
+      "title": "Replication Test IT",
+      "subject": "Information Technology",
+      "chunkSizeKb": 0,
+      "primaryNode": "IT",
+      "primaryChecksum": "f64a46f34bf18c859920e75077592c832018517ae139af4dfa1fd6c8e2880bef",
+      "replicas": [
+        {
+          "replicaNode": "CE",
+          "replicaFilePath": "/uploads/CE/REPLICA_CE_1791886137571-580583740.txt",
+          "replicaChecksum": "f64a46f34bf18c859920e75077592c832018517ae139af4dfa1fd6c8e2880bef",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:08:57.573Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791886137574-785220848.txt",
+          "replicaChecksum": "f64a46f34bf18c859920e75077592c832018517ae139af4dfa1fd6c8e2880bef",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:08:57.576Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886137568_2rlxl_c0",
+          "primary": "IT",
+          "replicas": [
+            "CE",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:08:57.576Z"
+    },
+    "res_1791886137588_ofbam": {
+      "fileId": "res_1791886137588_ofbam",
+      "filename": "repl_test.txt",
+      "title": "Replication Test E&TC",
+      "subject": "Electronics & Telecommunication",
+      "chunkSizeKb": 0,
+      "primaryNode": "E&TC",
+      "primaryChecksum": "a8716482f8963f648a56c772decc208ef704fe5d8a837493d84acfee3c01c190",
+      "replicas": [
+        {
+          "replicaNode": "CE",
+          "replicaFilePath": "/uploads/CE/REPLICA_CE_1791886137592-145141192.txt",
+          "replicaChecksum": "a8716482f8963f648a56c772decc208ef704fe5d8a837493d84acfee3c01c190",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:08:57.594Z"
+        },
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791886137595-184987596.txt",
+          "replicaChecksum": "a8716482f8963f648a56c772decc208ef704fe5d8a837493d84acfee3c01c190",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:08:57.597Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886137588_ofbam_c0",
+          "primary": "E&TC",
+          "replicas": [
+            "CE",
+            "IT"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:08:57.598Z"
+    },
+    "res_1791886137611_8tsnt": {
+      "fileId": "res_1791886137611_8tsnt",
+      "filename": "offline_test.txt",
+      "title": "Offline Node Test",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "4c499b19432729b0b79d0ca7972a65873987a30091aa967a64f7f63307e9b782",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "status": "REPLICATED",
+          "error": "Node IT is OFFLINE",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791886589284-908634491.txt",
+          "replicaChecksum": "4c499b19432729b0b79d0ca7972a65873987a30091aa967a64f7f63307e9b782",
+          "verified": true,
+          "timestamp": "2026-10-13T10:16:29.286Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791886137614-350512160.txt",
+          "replicaChecksum": "4c499b19432729b0b79d0ca7972a65873987a30091aa967a64f7f63307e9b782",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:08:57.616Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886137611_8tsnt_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:08:57.617Z"
+    },
+    "res_1791886137627_2sq6r": {
+      "fileId": "res_1791886137627_2sq6r",
+      "filename": "loop_test.txt",
+      "title": "Loop Test",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "83acbf3ce57207e3d52f0bd0ebf216d5d45cc6c0a4faaefe7c2334fb4bacbcac",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791886137629-641447496.txt",
+          "replicaChecksum": "83acbf3ce57207e3d52f0bd0ebf216d5d45cc6c0a4faaefe7c2334fb4bacbcac",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:08:57.631Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791886137632-335614637.txt",
+          "replicaChecksum": "83acbf3ce57207e3d52f0bd0ebf216d5d45cc6c0a4faaefe7c2334fb4bacbcac",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:08:57.633Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886137627_2sq6r_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:08:57.634Z"
+    },
+    "res_1791886637365_35pf9": {
+      "fileId": "res_1791886637365_35pf9",
+      "filename": "test_2b_primary.txt",
+      "title": "Phase 2B Primary Test",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "dac3fff8ab9846b6f0c8a7e14f1f97856d512d2cc05a8955c49d56ef39d5ddc1",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791886637369-242257304.txt",
+          "replicaChecksum": "dac3fff8ab9846b6f0c8a7e14f1f97856d512d2cc05a8955c49d56ef39d5ddc1",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:17:17.371Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791886637375-670983728.txt",
+          "replicaChecksum": "dac3fff8ab9846b6f0c8a7e14f1f97856d512d2cc05a8955c49d56ef39d5ddc1",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:17:17.378Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886637365_35pf9_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:17:17.379Z"
+    },
+    "res_1791886637403_u7yj2": {
+      "fileId": "res_1791886637403_u7yj2",
+      "filename": "test_offline_sec.txt",
+      "title": "Offline Secondary Test",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "753489c373766bfb743049cb0f6f8b7ecff63f57fb88e4c1a8fa3c336b06eba7",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "status": "REPLICATED",
+          "error": "Node IT is OFFLINE",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791886637450-719853324.txt",
+          "replicaChecksum": "753489c373766bfb743049cb0f6f8b7ecff63f57fb88e4c1a8fa3c336b06eba7",
+          "verified": true,
+          "timestamp": "2026-10-13T10:17:17.453Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791886637407-950012627.txt",
+          "replicaChecksum": "753489c373766bfb743049cb0f6f8b7ecff63f57fb88e4c1a8fa3c336b06eba7",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:17:17.409Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886637403_u7yj2_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:17:17.410Z"
+    },
+    "res_1791886731853_o0iq2": {
+      "fileId": "res_1791886731853_o0iq2",
+      "filename": "test_2b_primary.txt",
+      "title": "Phase 2B Primary Test",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "7b62561e26cfcaee6dce2bc65532a758a72cf058b48d7d33b1492194e8878942",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791886731860-641784428.txt",
+          "replicaChecksum": "7b62561e26cfcaee6dce2bc65532a758a72cf058b48d7d33b1492194e8878942",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:18:51.863Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791886731868-530002743.txt",
+          "replicaChecksum": "7b62561e26cfcaee6dce2bc65532a758a72cf058b48d7d33b1492194e8878942",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:18:51.873Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886731853_o0iq2_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:18:51.874Z"
+    },
+    "res_1791886731897_xdb77": {
+      "fileId": "res_1791886731897_xdb77",
+      "filename": "test_offline_sec.txt",
+      "title": "Offline Secondary Test",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "b542765cdb5a49a6686d9e7be07f90ad701c564c02aebbe016bb44c8d9057b1a",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "status": "REPLICATED",
+          "error": "Node IT is OFFLINE",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791886731943-29557879.txt",
+          "replicaChecksum": "b542765cdb5a49a6686d9e7be07f90ad701c564c02aebbe016bb44c8d9057b1a",
+          "verified": true,
+          "timestamp": "2026-10-13T10:18:51.946Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791886731903-716100497.txt",
+          "replicaChecksum": "b542765cdb5a49a6686d9e7be07f90ad701c564c02aebbe016bb44c8d9057b1a",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:18:51.904Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886731897_xdb77_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:18:51.905Z"
+    },
+    "res_1791886945589_o4it9": {
+      "fileId": "res_1791886945589_o4it9",
+      "filename": "edge_all_down.txt",
+      "title": "Edge All Down Resource",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "d8d52fb9fbae6d642e3c0c2ea8f6ac66a1e6bcde71bcd7458e2a93f75c95446f",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791886945591-969765205.txt",
+          "replicaChecksum": "d8d52fb9fbae6d642e3c0c2ea8f6ac66a1e6bcde71bcd7458e2a93f75c95446f",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:22:25.593Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791886945595-949153752.txt",
+          "replicaChecksum": "d8d52fb9fbae6d642e3c0c2ea8f6ac66a1e6bcde71bcd7458e2a93f75c95446f",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:22:25.598Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886945589_o4it9_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:22:25.598Z"
+    },
+    "res_1791886945617_vegzf": {
+      "fileId": "res_1791886945617_vegzf",
+      "filename": "edge_fallback_source.txt",
+      "title": "Edge Fallback Source Resource",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "087203fb924762a4ca07571fb12159da12ce3395be8575b930261bf09ac1d882",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791886945641-157402260.txt",
+          "replicaChecksum": "087203fb924762a4ca07571fb12159da12ce3395be8575b930261bf09ac1d882",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:22:25.643Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791886945623-294798500.txt",
+          "replicaChecksum": "087203fb924762a4ca07571fb12159da12ce3395be8575b930261bf09ac1d882",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:22:25.625Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886945617_vegzf_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:22:25.625Z"
+    },
+    "res_1791886957963_0xf55": {
+      "fileId": "res_1791886957963_0xf55",
+      "filename": "edge_all_down.txt",
+      "title": "Edge All Down Resource",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "d08d55276c49c716c554f3a8f94b8622c4778c7fcc720f93303590b29e8b0938",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791886957965-100456265.txt",
+          "replicaChecksum": "d08d55276c49c716c554f3a8f94b8622c4778c7fcc720f93303590b29e8b0938",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:22:37.967Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791886957969-2429452.txt",
+          "replicaChecksum": "d08d55276c49c716c554f3a8f94b8622c4778c7fcc720f93303590b29e8b0938",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:22:37.971Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886957963_0xf55_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:22:37.971Z"
+    },
+    "res_1791886957997_5po13": {
+      "fileId": "res_1791886957997_5po13",
+      "filename": "edge_fallback_source.txt",
+      "title": "Edge Fallback Source Resource",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "primaryChecksum": "f6c26592af380e2bb4bd85f0680db69c7443a0cf3f780439e58adcbefac70a17",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791886958034-985874911.txt",
+          "replicaChecksum": "f6c26592af380e2bb4bd85f0680db69c7443a0cf3f780439e58adcbefac70a17",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:22:38.036Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791886958010-959219783.txt",
+          "replicaChecksum": "f6c26592af380e2bb4bd85f0680db69c7443a0cf3f780439e58adcbefac70a17",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:22:38.013Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886957997_5po13_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:22:38.014Z"
+    },
+    "res_1791886958051_mmi96": {
+      "fileId": "res_1791886958051_mmi96",
+      "filename": "regression_normal.txt",
+      "title": "Regression Normal Test",
+      "subject": "Information Technology",
+      "chunkSizeKb": 0,
+      "primaryNode": "IT",
+      "primaryChecksum": "4321b3b85b854d25cd20ae9bcbc72387f93f312db1d869516d7ff922ea571482",
+      "replicas": [
+        {
+          "replicaNode": "CE",
+          "replicaFilePath": "/uploads/CE/REPLICA_CE_1791886958054-218380968.txt",
+          "replicaChecksum": "4321b3b85b854d25cd20ae9bcbc72387f93f312db1d869516d7ff922ea571482",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:22:38.056Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791886958058-876629482.txt",
+          "replicaChecksum": "4321b3b85b854d25cd20ae9bcbc72387f93f312db1d869516d7ff922ea571482",
+          "verified": true,
+          "status": "REPLICATED",
+          "timestamp": "2026-10-13T10:22:38.059Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791886958051_mmi96_c0",
+          "primary": "IT",
+          "replicas": [
+            "CE",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:22:38.060Z"
+    },
+    "res_1791887538295_a7n32": {
+      "fileId": "res_1791887538295_a7n32",
+      "filename": "lamport_test.txt",
+      "title": "Lamport Clock Resource",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 17,
+      "primaryChecksum": "fbea462fd5dd183ad876394ae45cc4db915df8bcaaa29adb8ca9ed9c04d1ef25",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791887538301-896053697.txt",
+          "replicaChecksum": "fbea462fd5dd183ad876394ae45cc4db915df8bcaaa29adb8ca9ed9c04d1ef25",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 18,
+          "timestamp": "2026-10-13T10:32:18.305Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791887538310-502491784.txt",
+          "replicaChecksum": "fbea462fd5dd183ad876394ae45cc4db915df8bcaaa29adb8ca9ed9c04d1ef25",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 18,
+          "timestamp": "2026-10-13T10:32:18.313Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791887538295_a7n32_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:32:18.313Z"
+    },
+    "res_1791887691215_wf0du": {
+      "fileId": "res_1791887691215_wf0du",
+      "filename": "local_test.txt",
+      "title": "Local Clock Test Resource",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 31,
+      "primaryChecksum": "24ea4f8083a4e5c4fea30f347d319f9775f757d6f84efcd29a59ca709ea7a758",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791887691222-559074233.txt",
+          "replicaChecksum": "24ea4f8083a4e5c4fea30f347d319f9775f757d6f84efcd29a59ca709ea7a758",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 83,
+          "timestamp": "2026-10-13T10:34:51.226Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791887691230-769996080.txt",
+          "replicaChecksum": "24ea4f8083a4e5c4fea30f347d319f9775f757d6f84efcd29a59ca709ea7a758",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 32,
+          "timestamp": "2026-10-13T10:34:51.233Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791887691215_wf0du_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:34:51.234Z"
+    },
+    "res_1791887691271_xp7rh": {
+      "fileId": "res_1791887691271_xp7rh",
+      "filename": "regression_e.txt",
+      "title": "Regression Resource",
+      "subject": "Information Technology",
+      "chunkSizeKb": 0,
+      "primaryNode": "IT",
+      "replicaNode": "CE",
+      "lamportClock": 118,
+      "primaryChecksum": "a89059c74101e4e5732400d38cf317b4b82545c80062079ca5c36933d7e85b4e",
+      "replicas": [
+        {
+          "replicaNode": "CE",
+          "replicaFilePath": "/uploads/CE/REPLICA_CE_1791887691274-995424180.txt",
+          "replicaChecksum": "a89059c74101e4e5732400d38cf317b4b82545c80062079ca5c36933d7e85b4e",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 119,
+          "timestamp": "2026-10-13T10:34:51.277Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791887691280-118664785.txt",
+          "replicaChecksum": "a89059c74101e4e5732400d38cf317b4b82545c80062079ca5c36933d7e85b4e",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 119,
+          "timestamp": "2026-10-13T10:34:51.282Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791887691271_xp7rh_c0",
+          "primary": "IT",
+          "replicas": [
+            "CE",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:34:51.282Z"
+    },
+    "res_1791888493369_pukyy": {
+      "fileId": "res_1791888493369_pukyy",
+      "filename": "phase3b_vec_test.txt",
+      "title": "Phase3B Vector Clock Test",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 176,
+      "primaryChecksum": "9746a686c755222bef84ba3ee3b2145bee7cf71f681a0c21c62817797ba210a9",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791888493375-581116551.txt",
+          "replicaChecksum": "9746a686c755222bef84ba3ee3b2145bee7cf71f681a0c21c62817797ba210a9",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 177,
+          "timestamp": "2026-10-13T10:48:13.379Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791888493383-306534232.txt",
+          "replicaChecksum": "9746a686c755222bef84ba3ee3b2145bee7cf71f681a0c21c62817797ba210a9",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 177,
+          "timestamp": "2026-10-13T10:48:13.387Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791888493369_pukyy_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:48:13.389Z"
+    },
+    "res_1791888494407_8pp60": {
+      "fileId": "res_1791888494407_8pp60",
+      "filename": "regression_dl_test.txt",
+      "title": "Regression Download Test",
+      "subject": "Testing",
+      "chunkSizeKb": 0,
+      "primaryNode": "IT",
+      "replicaNode": "CE",
+      "lamportClock": 180,
+      "primaryChecksum": "31da3ff918c2fe78bb0942cd5b87fd62350abc4ec9647b95037fab6b7a691080",
+      "replicas": [
+        {
+          "replicaNode": "CE",
+          "replicaFilePath": "/uploads/CE/REPLICA_CE_1791888494410-773713567.txt",
+          "replicaChecksum": "31da3ff918c2fe78bb0942cd5b87fd62350abc4ec9647b95037fab6b7a691080",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 181,
+          "timestamp": "2026-10-13T10:48:14.413Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791888494414-224792254.txt",
+          "replicaChecksum": "31da3ff918c2fe78bb0942cd5b87fd62350abc4ec9647b95037fab6b7a691080",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 181,
+          "timestamp": "2026-10-13T10:48:14.416Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791888494407_8pp60_c0",
+          "primary": "IT",
+          "replicas": [
+            "CE",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:48:14.418Z"
+    },
+    "res_1791888604240_piscl": {
+      "fileId": "res_1791888604240_piscl",
+      "filename": "phase3b_vec_test.txt",
+      "title": "Phase3B Vector Clock Test",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 188,
+      "primaryChecksum": "857e81c90424cb34c406f8c67338149601998e4253f4c1cffbf0904930047994",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791888604246-162855307.txt",
+          "replicaChecksum": "857e81c90424cb34c406f8c67338149601998e4253f4c1cffbf0904930047994",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 189,
+          "timestamp": "2026-10-13T10:50:04.251Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791888604256-685729545.txt",
+          "replicaChecksum": "857e81c90424cb34c406f8c67338149601998e4253f4c1cffbf0904930047994",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 189,
+          "timestamp": "2026-10-13T10:50:04.260Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791888604240_piscl_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:50:04.261Z"
+    },
+    "res_1791888605295_9uadw": {
+      "fileId": "res_1791888605295_9uadw",
+      "filename": "regression_dl_test.txt",
+      "title": "Regression Download Test",
+      "subject": "Testing",
+      "chunkSizeKb": 0,
+      "primaryNode": "IT",
+      "replicaNode": "CE",
+      "lamportClock": 193,
+      "primaryChecksum": "1a8e3a54f58ef259f9a7b9cb278f1f1a4ea791d4927c17319a282c42255431df",
+      "replicas": [
+        {
+          "replicaNode": "CE",
+          "replicaFilePath": "/uploads/CE/REPLICA_CE_1791888605298-515812212.txt",
+          "replicaChecksum": "1a8e3a54f58ef259f9a7b9cb278f1f1a4ea791d4927c17319a282c42255431df",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 194,
+          "timestamp": "2026-10-13T10:50:05.302Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791888605304-888346840.txt",
+          "replicaChecksum": "1a8e3a54f58ef259f9a7b9cb278f1f1a4ea791d4927c17319a282c42255431df",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 194,
+          "timestamp": "2026-10-13T10:50:05.306Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791888605295_9uadw_c0",
+          "primary": "IT",
+          "replicas": [
+            "CE",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T10:50:05.307Z"
+    },
+    "res_1791889363524_27e4n": {
+      "fileId": "res_1791889363524_27e4n",
+      "filename": "phase3c_regression.txt",
+      "title": "Phase3C Regression Resource",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 245,
+      "primaryChecksum": "aeb34d812d934d921b1102e21b48dcf56552b80680fdbc0dd03078c2ac59dd87",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791889363528-545128818.txt",
+          "replicaChecksum": "aeb34d812d934d921b1102e21b48dcf56552b80680fdbc0dd03078c2ac59dd87",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 246,
+          "timestamp": "2026-10-13T11:02:43.537Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791889363541-182417969.txt",
+          "replicaChecksum": "aeb34d812d934d921b1102e21b48dcf56552b80680fdbc0dd03078c2ac59dd87",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 246,
+          "timestamp": "2026-10-13T11:02:43.545Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791889363524_27e4n_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T11:02:43.545Z"
+    },
+    "res_1791889655667_ip5eb": {
+      "fileId": "res_1791889655667_ip5eb",
+      "filename": "phase3c_regression.txt",
+      "title": "Phase3C Regression Resource",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 261,
+      "primaryChecksum": "ef5d6b56eaf18643226c2c644620f08fff1b9dbdbb0ec4f78a13d9547692070c",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791889655672-327016144.txt",
+          "replicaChecksum": "ef5d6b56eaf18643226c2c644620f08fff1b9dbdbb0ec4f78a13d9547692070c",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 264,
+          "timestamp": "2026-10-13T11:07:35.676Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791889655679-675192456.txt",
+          "replicaChecksum": "ef5d6b56eaf18643226c2c644620f08fff1b9dbdbb0ec4f78a13d9547692070c",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 263,
+          "timestamp": "2026-10-13T11:07:35.683Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791889655667_ip5eb_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T11:07:35.684Z"
+    },
+    "res_1791889998139_4i4qz": {
+      "fileId": "res_1791889998139_4i4qz",
+      "filename": "mutex_del.txt",
+      "title": "Mutex Deletion Test File",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 294,
+      "primaryChecksum": "b86ce2027a9c12c6e3580a2ce759bc1468cd2640f0bda9a6c1bf4009756bcbd7",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791889998144-537443680.txt",
+          "replicaChecksum": "b86ce2027a9c12c6e3580a2ce759bc1468cd2640f0bda9a6c1bf4009756bcbd7",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 297,
+          "timestamp": "2026-10-13T11:13:18.148Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791889998151-94330725.txt",
+          "replicaChecksum": "b86ce2027a9c12c6e3580a2ce759bc1468cd2640f0bda9a6c1bf4009756bcbd7",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 305,
+          "timestamp": "2026-10-13T11:13:18.155Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791889998139_4i4qz_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T11:13:18.156Z"
+    },
+    "res_1791890006352_nqwjz": {
+      "fileId": "res_1791890006352_nqwjz",
+      "filename": "phase3d_reg.txt",
+      "title": "Phase 3D Final Verification",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 299,
+      "primaryChecksum": "9f495af9e98b8111fa4642d3f2c6652847bc8cdf9d93ba790584687ed73aaafd",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791890006357-619037911.txt",
+          "replicaChecksum": "9f495af9e98b8111fa4642d3f2c6652847bc8cdf9d93ba790584687ed73aaafd",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 301,
+          "timestamp": "2026-10-13T11:13:26.359Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791890006360-378058211.txt",
+          "replicaChecksum": "9f495af9e98b8111fa4642d3f2c6652847bc8cdf9d93ba790584687ed73aaafd",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 314,
+          "timestamp": "2026-10-13T11:13:26.363Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791890006352_nqwjz_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T11:13:26.364Z"
+    },
+    "res_1791890049957_ngknx": {
+      "fileId": "res_1791890049957_ngknx",
+      "filename": "t.txt",
+      "title": "T",
+      "subject": "Computer Engineering",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 315,
+      "primaryChecksum": "af2bdbe1aa9b6ec1e2ade1d694f41fc71a831d0268e9891562113d8a62add1bf",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791890049960-218904876.txt",
+          "replicaChecksum": "af2bdbe1aa9b6ec1e2ade1d694f41fc71a831d0268e9891562113d8a62add1bf",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 316,
+          "timestamp": "2026-10-13T11:14:09.963Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791890049964-778047799.txt",
+          "replicaChecksum": "af2bdbe1aa9b6ec1e2ade1d694f41fc71a831d0268e9891562113d8a62add1bf",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 329,
+          "timestamp": "2026-10-13T11:14:09.967Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791890049957_ngknx_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T11:14:09.967Z"
+    },
+    "res_1791890171022_je9fl": {
+      "fileId": "res_1791890171022_je9fl",
+      "filename": "phase3d_reg.txt",
+      "title": "Phase 3D Final Verification",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 337,
+      "primaryChecksum": "479cb712d3ef736d6903a2589bab309e1f62cf3fbdc4aea1d704adbc71cc9e70",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791890171026-885623091.txt",
+          "replicaChecksum": "479cb712d3ef736d6903a2589bab309e1f62cf3fbdc4aea1d704adbc71cc9e70",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 338,
+          "timestamp": "2026-10-13T11:16:11.028Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791890171029-714486437.txt",
+          "replicaChecksum": "479cb712d3ef736d6903a2589bab309e1f62cf3fbdc4aea1d704adbc71cc9e70",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 359,
+          "timestamp": "2026-10-13T11:16:11.035Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791890171022_je9fl_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T11:16:11.036Z"
+    },
+    "res_1791890642117_l7yqd": {
+      "fileId": "res_1791890642117_l7yqd",
+      "filename": "phase3b_vec_test.txt",
+      "title": "Phase3B Vector Clock Test",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 497,
+      "primaryChecksum": "964f5b61e84f1492dbe07e274e4bb245fcc2c2c7105464dd0257c58d341c98b1",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791890642120-325651029.txt",
+          "replicaChecksum": "964f5b61e84f1492dbe07e274e4bb245fcc2c2c7105464dd0257c58d341c98b1",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 498,
+          "timestamp": "2026-10-13T11:24:02.122Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791890642123-639623652.txt",
+          "replicaChecksum": "964f5b61e84f1492dbe07e274e4bb245fcc2c2c7105464dd0257c58d341c98b1",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 517,
+          "timestamp": "2026-10-13T11:24:02.126Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791890642117_l7yqd_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T11:24:02.127Z"
+    },
+    "res_1791890643143_hejlg": {
+      "fileId": "res_1791890643143_hejlg",
+      "filename": "regression_dl_test.txt",
+      "title": "Regression Download Test",
+      "subject": "Testing",
+      "chunkSizeKb": 0,
+      "primaryNode": "IT",
+      "replicaNode": "CE",
+      "lamportClock": 501,
+      "primaryChecksum": "ca618d6cf2a59aa444bc24ff29cc72337654be517f4925a90e2f5548b0556e1c",
+      "replicas": [
+        {
+          "replicaNode": "CE",
+          "replicaFilePath": "/uploads/CE/REPLICA_CE_1791890643146-72719311.txt",
+          "replicaChecksum": "ca618d6cf2a59aa444bc24ff29cc72337654be517f4925a90e2f5548b0556e1c",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 502,
+          "timestamp": "2026-10-13T11:24:03.148Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791890643149-347096837.txt",
+          "replicaChecksum": "ca618d6cf2a59aa444bc24ff29cc72337654be517f4925a90e2f5548b0556e1c",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 519,
+          "timestamp": "2026-10-13T11:24:03.151Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791890643143_hejlg_c0",
+          "primary": "IT",
+          "replicas": [
+            "CE",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T11:24:03.152Z"
+    },
+    "res_1791891065824_w60w3": {
+      "fileId": "res_1791891065824_w60w3",
+      "filename": "phase3c_regression.txt",
+      "title": "Phase3C Regression Resource",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 644,
+      "primaryChecksum": "54e5efd0e70396562b803fc5eb318edeaeb1d4a6578ebf455f5d805fd4009eab",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791891065825-152264158.txt",
+          "replicaChecksum": "54e5efd0e70396562b803fc5eb318edeaeb1d4a6578ebf455f5d805fd4009eab",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 645,
+          "timestamp": "2026-10-13T11:31:05.828Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791891065829-144607136.txt",
+          "replicaChecksum": "54e5efd0e70396562b803fc5eb318edeaeb1d4a6578ebf455f5d805fd4009eab",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 661,
+          "timestamp": "2026-10-13T11:31:05.831Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791891065824_w60w3_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T11:31:05.833Z"
+    },
+    "res_1791891087099_f110h": {
+      "fileId": "res_1791891087099_f110h",
+      "filename": "phase3d_reg.txt",
+      "title": "Phase 3D Final Verification",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 655,
+      "primaryChecksum": "98162cd3246de328e26d26892f6f27444c1d2f6077d3baab21a21744f8925be4",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791891087101-416453210.txt",
+          "replicaChecksum": "98162cd3246de328e26d26892f6f27444c1d2f6077d3baab21a21744f8925be4",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 656,
+          "timestamp": "2026-10-13T11:31:27.103Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791891087105-1101392.txt",
+          "replicaChecksum": "98162cd3246de328e26d26892f6f27444c1d2f6077d3baab21a21744f8925be4",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 680,
+          "timestamp": "2026-10-13T11:31:27.109Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791891087099_f110h_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T11:31:27.110Z"
+    },
+    "res_1791896679136_rkslp": {
+      "fileId": "res_1791896679136_rkslp",
+      "filename": "phase3c_regression.txt",
+      "title": "Phase3C Regression Resource",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 2515,
+      "primaryChecksum": "56ab5e0c708e5f73e895a580c57cb6158610746041f5d9b549a2c3a6b59cac91",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791896679140-563320112.txt",
+          "replicaChecksum": "56ab5e0c708e5f73e895a580c57cb6158610746041f5d9b549a2c3a6b59cac91",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 2517,
+          "timestamp": "2026-10-13T13:04:39.142Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791896679144-68806400.txt",
+          "replicaChecksum": "56ab5e0c708e5f73e895a580c57cb6158610746041f5d9b549a2c3a6b59cac91",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 2539,
+          "timestamp": "2026-10-13T13:04:39.146Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791896679136_rkslp_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T13:04:39.146Z"
+    },
+    "res_1791896696317_guy74": {
+      "fileId": "res_1791896696317_guy74",
+      "filename": "phase3d_reg.txt",
+      "title": "Phase 3D Final Verification",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 2525,
+      "primaryChecksum": "c4812ec24508388d57c0c67d2a36c360b68bcafa259b88516ab5c5b1bdce42db",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791896696321-394169689.txt",
+          "replicaChecksum": "c4812ec24508388d57c0c67d2a36c360b68bcafa259b88516ab5c5b1bdce42db",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 2526,
+          "timestamp": "2026-10-13T13:04:56.324Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791896696326-66584804.txt",
+          "replicaChecksum": "c4812ec24508388d57c0c67d2a36c360b68bcafa259b88516ab5c5b1bdce42db",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 2557,
+          "timestamp": "2026-10-13T13:04:56.329Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791896696317_guy74_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T13:04:56.329Z"
+    },
+    "res_1791897411587_ov9a9": {
+      "fileId": "res_1791897411587_ov9a9",
+      "filename": "phase3c_regression.txt",
+      "title": "Phase3C Regression Resource",
+      "subject": "Distributed Systems",
+      "chunkSizeKb": 0,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 2764,
+      "primaryChecksum": "d604e2601b24a0e0fbc2e0156b5a8ad49e87b0b91c74fb6119f1bb2f9b234a98",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791897411590-248426801.txt",
+          "replicaChecksum": "d604e2601b24a0e0fbc2e0156b5a8ad49e87b0b91c74fb6119f1bb2f9b234a98",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 2766,
+          "timestamp": "2026-10-13T13:16:51.599Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791897411601-122487307.txt",
+          "replicaChecksum": "d604e2601b24a0e0fbc2e0156b5a8ad49e87b0b91c74fb6119f1bb2f9b234a98",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 2796,
+          "timestamp": "2026-10-13T13:16:51.604Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791897411587_ov9a9_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T13:16:51.605Z"
+    },
+    "res_1791900889057_eeexw": {
+      "fileId": "res_1791900889057_eeexw",
+      "filename": "123B1B067_Ass7_OOMD.pdf",
+      "title": "Ass_no_7",
+      "subject": "OOMD",
+      "chunkSizeKb": 278,
+      "primaryNode": "CE",
+      "replicaNode": "IT",
+      "lamportClock": 3927,
+      "primaryChecksum": "9afd261af0ad8362a0e42e7feef9ac4cf5f151a8fafe79d9fa7107921e4ebe85",
+      "replicas": [
+        {
+          "replicaNode": "IT",
+          "replicaFilePath": "/uploads/IT/REPLICA_IT_1791900889071-52687805.pdf",
+          "replicaChecksum": "9afd261af0ad8362a0e42e7feef9ac4cf5f151a8fafe79d9fa7107921e4ebe85",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 3928,
+          "timestamp": "2026-10-13T14:14:49.100Z"
+        },
+        {
+          "replicaNode": "E&TC",
+          "replicaFilePath": "/uploads/E&TC/REPLICA_ETC_1791900889109-251541370.pdf",
+          "replicaChecksum": "9afd261af0ad8362a0e42e7feef9ac4cf5f151a8fafe79d9fa7107921e4ebe85",
+          "verified": true,
+          "status": "REPLICATED",
+          "clock": 3958,
+          "timestamp": "2026-10-13T14:14:49.134Z"
+        }
+      ],
+      "chunkLocations": [
+        {
+          "chunkId": "res_1791900889057_eeexw_c0",
+          "primary": "CE",
+          "replicas": [
+            "IT",
+            "E&TC"
+          ],
+          "status": "AVAILABLE"
+        }
+      ],
+      "createdAt": "2026-10-13T14:14:49.135Z"
+    }
+  },
+  "chunkNodes": {
+    "CE": {
+      "nodeId": "node-ce",
+      "port": 5001,
+      "status": "ONLINE"
+    },
+    "IT": {
+      "nodeId": "node-it",
+      "port": 5002,
+      "status": "ONLINE"
+    },
+    "E&TC": {
+      "nodeId": "node-etc",
+      "port": 5003,
+      "status": "ONLINE"
+    }
+  },
+  "totalFiles": 0
+}

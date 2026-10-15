@@ -1,0 +1,1007 @@
+{
+  "users": [
+    {
+      "id": "u_student_1",
+      "name": "Demo Student",
+      "email": "student@college.edu",
+      "password": "password123",
+      "department": "IT"
+    }
+  ],
+  "resources": [
+    {
+      "id": "res_it_1",
+      "title": "Cloud Computing & Virtualization Lab Manual",
+      "description": "Lab experiment write-ups for Docker, Kubernetes, and AWS EC2 deployment.",
+      "subject": "Cloud Computing",
+      "department": "IT",
+      "resourceType": "Lab Manuals",
+      "fileName": "Cloud_Lab_Manual_2026.pdf",
+      "filePath": "/uploads/IT/sample_cloud_manual.pdf",
+      "fileSize": 624640,
+      "uploadedBy": "Prof. R. Varma (IT)",
+      "uploadDate": "2026-08-23T06:06:40.728Z",
+      "nodeId": "node-it"
+    },
+    {
+      "id": "res_it_2",
+      "title": "Web Technologies Assignment 2 Solutions",
+      "description": "REST API & Express.js middleware assignment solution code and document.",
+      "subject": "Web Technologies",
+      "department": "IT",
+      "resourceType": "Assignments",
+      "fileName": "WebTech_Assignment_2.pdf",
+      "filePath": "/uploads/IT/sample_webtech_assign.pdf",
+      "fileSize": 286720,
+      "uploadedBy": "Rahul K. (BE IT)",
+      "uploadDate": "2026-08-21T06:06:40.728Z",
+      "nodeId": "node-it"
+    },
+    {
+      "id": "res_1791885073056_t62ub",
+      "uploadDate": "2026-10-13T09:51:13.056Z",
+      "title": "Test Resource IT",
+      "description": "",
+      "subject": "Information Technology",
+      "department": "IT",
+      "resourceType": "Notes",
+      "filePath": "/uploads/IT/IT_1791885073052-188539815.txt",
+      "fileName": "test.txt",
+      "fileSize": 47,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-it",
+      "vectorClock": {
+        "CE": 0,
+        "IT": 113,
+        "E&TC": 0,
+        "GATEWAY": 2
+      }
+    },
+    {
+      "id": "res_1791885884384_t92jh",
+      "uploadDate": "2026-10-13T10:04:44.384Z",
+      "title": "Replication Test IT",
+      "description": "",
+      "subject": "Information Technology",
+      "department": "IT",
+      "resourceType": "Notes",
+      "filePath": "/uploads/IT/IT_1791885884383-104929683.txt",
+      "fileName": "repl_test.txt",
+      "fileSize": 40,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-it",
+      "vectorClock": {
+        "CE": 0,
+        "IT": 88,
+        "E&TC": 0,
+        "GATEWAY": 2
+      }
+    },
+    {
+      "id": "res_1791886137568_2rlxl",
+      "uploadDate": "2026-10-13T10:08:57.568Z",
+      "title": "Replication Test IT",
+      "description": "",
+      "subject": "Information Technology",
+      "department": "IT",
+      "resourceType": "Notes",
+      "filePath": "/uploads/IT/IT_1791886137567-312572775.txt",
+      "fileName": "repl_test.txt",
+      "fileSize": 40,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-it",
+      "vectorClock": {
+        "CE": 0,
+        "IT": 176,
+        "E&TC": 0,
+        "GATEWAY": 9
+      }
+    },
+    {
+      "id": "res_1791886958051_mmi96",
+      "uploadDate": "2026-10-13T10:22:38.051Z",
+      "title": "Regression Normal Test",
+      "description": "",
+      "subject": "Information Technology",
+      "department": "IT",
+      "resourceType": "Notes",
+      "filePath": "/uploads/IT/IT_1791886958050-705592576.txt",
+      "fileName": "regression_normal.txt",
+      "fileSize": 36,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-it",
+      "vectorClock": {
+        "CE": 0,
+        "IT": 82,
+        "E&TC": 0,
+        "GATEWAY": 11
+      }
+    },
+    {
+      "id": "res_1791887691271_xp7rh",
+      "uploadDate": "2026-10-13T10:34:51.271Z",
+      "title": "Regression Resource",
+      "description": "",
+      "subject": "Information Technology",
+      "department": "IT",
+      "resourceType": "Notes",
+      "filePath": "/uploads/IT/IT_1791887691269-956085927.txt",
+      "fileName": "regression_e.txt",
+      "fileSize": 39,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-it",
+      "lamportClock": 118,
+      "vectorClock": {
+        "CE": 0,
+        "IT": 18,
+        "E&TC": 0,
+        "GATEWAY": 2
+      }
+    },
+    {
+      "id": "res_1791888494407_8pp60",
+      "uploadDate": "2026-10-13T10:48:14.407Z",
+      "title": "Regression Download Test",
+      "description": "",
+      "subject": "Testing",
+      "department": "IT",
+      "resourceType": "Notes",
+      "filePath": "/uploads/IT/IT_1791888494405-751081435.txt",
+      "fileName": "regression_dl_test.txt",
+      "fileSize": 33,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-it",
+      "lamportClock": 180,
+      "vectorClock": {
+        "CE": 0,
+        "IT": 60,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791888605295_9uadw",
+      "uploadDate": "2026-10-13T10:50:05.295Z",
+      "title": "Regression Download Test",
+      "description": "",
+      "subject": "Testing",
+      "department": "IT",
+      "resourceType": "Notes",
+      "filePath": "/uploads/IT/IT_1791888605294-373675851.txt",
+      "fileName": "regression_dl_test.txt",
+      "fileSize": 33,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-it",
+      "lamportClock": 193,
+      "vectorClock": {
+        "CE": 67,
+        "IT": 71,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791890643143_hejlg",
+      "uploadDate": "2026-10-13T11:24:03.143Z",
+      "title": "Regression Download Test",
+      "description": "",
+      "subject": "Testing",
+      "department": "IT",
+      "resourceType": "Notes",
+      "filePath": "/uploads/IT/IT_1791890643141-126238891.txt",
+      "fileName": "regression_dl_test.txt",
+      "fileSize": 33,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-it",
+      "lamportClock": 501,
+      "vectorClock": {
+        "CE": 374,
+        "IT": 377,
+        "E&TC": 0
+      }
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_1792055808019",
+      "timestamp": "2026-10-15T09:16:48.019Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 12231
+    },
+    {
+      "id": "log_1792055807450",
+      "timestamp": "2026-10-15T09:16:47.450Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 12231
+    },
+    {
+      "id": "log_1792001639780",
+      "timestamp": "2026-10-14T18:13:59.780Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 8308
+    },
+    {
+      "id": "log_1792001638978",
+      "timestamp": "2026-10-14T18:13:58.978Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 8308
+    },
+    {
+      "id": "log_1792000542459",
+      "timestamp": "2026-10-14T17:55:42.459Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 8001
+    },
+    {
+      "id": "log_1791900889098",
+      "timestamp": "2026-10-13T14:14:49.098Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791900889057_eeexw from CE, verified=true",
+      "clock": 3928,
+      "vectorClock": {
+        "CE": 3802,
+        "IT": 3801,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791897411599",
+      "timestamp": "2026-10-13T13:16:51.599Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791897411587_ov9a9 from CE, verified=true",
+      "clock": 2766,
+      "vectorClock": {
+        "CE": 2639,
+        "IT": 2639,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791897409949",
+      "timestamp": "2026-10-13T13:16:49.949Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2765
+    },
+    {
+      "id": "log_1791897408325",
+      "timestamp": "2026-10-13T13:16:48.325Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2764
+    },
+    {
+      "id": "log_1791897406698",
+      "timestamp": "2026-10-13T13:16:46.698Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2764
+    },
+    {
+      "id": "log_1791897403859",
+      "timestamp": "2026-10-13T13:16:43.859Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2763
+    },
+    {
+      "id": "log_1791897400744",
+      "timestamp": "2026-10-13T13:16:40.744Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 2762
+    },
+    {
+      "id": "log_1791897400728",
+      "timestamp": "2026-10-13T13:16:40.728Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 2761
+    },
+    {
+      "id": "log_1791897398071",
+      "timestamp": "2026-10-13T13:16:38.071Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2759
+    },
+    {
+      "id": "log_1791897395734",
+      "timestamp": "2026-10-13T13:16:35.734Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2758
+    },
+    {
+      "id": "log_1791896696323",
+      "timestamp": "2026-10-13T13:04:56.323Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791896696317_guy74 from CE, verified=true",
+      "clock": 2526,
+      "vectorClock": {
+        "CE": 2400,
+        "IT": 2399,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791896693988",
+      "timestamp": "2026-10-13T13:04:53.988Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2523
+    },
+    {
+      "id": "log_1791896688047",
+      "timestamp": "2026-10-13T13:04:48.047Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791896688041_dcouw from CE, verified=true",
+      "clock": 2521,
+      "vectorClock": {
+        "CE": 2395,
+        "IT": 2395,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791896679142",
+      "timestamp": "2026-10-13T13:04:39.142Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791896679136_rkslp from CE, verified=true",
+      "clock": 2517,
+      "vectorClock": {
+        "CE": 2390,
+        "IT": 2391,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791896677480",
+      "timestamp": "2026-10-13T13:04:37.480Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2515
+    },
+    {
+      "id": "log_1791896675844",
+      "timestamp": "2026-10-13T13:04:35.844Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2515
+    },
+    {
+      "id": "log_1791896674226",
+      "timestamp": "2026-10-13T13:04:34.226Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2514
+    },
+    {
+      "id": "log_1791896671400",
+      "timestamp": "2026-10-13T13:04:31.400Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2513
+    },
+    {
+      "id": "log_1791896668295",
+      "timestamp": "2026-10-13T13:04:28.295Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 2512
+    },
+    {
+      "id": "log_1791896668273",
+      "timestamp": "2026-10-13T13:04:28.273Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 2511
+    },
+    {
+      "id": "log_1791896665634",
+      "timestamp": "2026-10-13T13:04:25.634Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2509
+    },
+    {
+      "id": "log_1791896663289",
+      "timestamp": "2026-10-13T13:04:23.289Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2509
+    },
+    {
+      "id": "log_1791891087103",
+      "timestamp": "2026-10-13T11:31:27.103Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791891087099_f110h from CE, verified=true",
+      "clock": 656,
+      "vectorClock": {
+        "CE": 530,
+        "IT": 530,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791891084778",
+      "timestamp": "2026-10-13T11:31:24.778Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 653
+    },
+    {
+      "id": "log_1791891078888",
+      "timestamp": "2026-10-13T11:31:18.888Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791891078884_bpa2m from CE, verified=true",
+      "clock": 651,
+      "vectorClock": {
+        "CE": 525,
+        "IT": 526,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791891065827",
+      "timestamp": "2026-10-13T11:31:05.827Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791891065824_w60w3 from CE, verified=true",
+      "clock": 645,
+      "vectorClock": {
+        "CE": 519,
+        "IT": 521,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791891064196",
+      "timestamp": "2026-10-13T11:31:04.196Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 643
+    },
+    {
+      "id": "log_1791891062576",
+      "timestamp": "2026-10-13T11:31:02.576Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 643
+    },
+    {
+      "id": "log_1791891060945",
+      "timestamp": "2026-10-13T11:31:00.945Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 642
+    },
+    {
+      "id": "log_1791891058126",
+      "timestamp": "2026-10-13T11:30:58.126Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 641
+    },
+    {
+      "id": "log_1791891055063",
+      "timestamp": "2026-10-13T11:30:55.063Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 640
+    },
+    {
+      "id": "log_1791891055053",
+      "timestamp": "2026-10-13T11:30:55.053Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 639
+    },
+    {
+      "id": "log_1791891052419",
+      "timestamp": "2026-10-13T11:30:52.419Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 637
+    },
+    {
+      "id": "log_1791891050095",
+      "timestamp": "2026-10-13T11:30:50.095Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 636
+    },
+    {
+      "id": "log_1791890643143",
+      "timestamp": "2026-10-13T11:24:03.143Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Regression Download Test",
+      "clock": 501
+    },
+    {
+      "id": "log_1791890642122",
+      "timestamp": "2026-10-13T11:24:02.122Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791890642117_l7yqd from CE, verified=true",
+      "clock": 498,
+      "vectorClock": {
+        "CE": 374,
+        "IT": 374,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791890171028",
+      "timestamp": "2026-10-13T11:16:11.028Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791890171022_je9fl from CE, verified=true",
+      "clock": 338,
+      "vectorClock": {
+        "CE": 214,
+        "IT": 215,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791890168706",
+      "timestamp": "2026-10-13T11:16:08.706Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 335
+    },
+    {
+      "id": "log_1791890162820",
+      "timestamp": "2026-10-13T11:16:02.820Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791890162812_bz0ql from CE, verified=true",
+      "clock": 333,
+      "vectorClock": {
+        "CE": 209,
+        "IT": 211,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791890115846",
+      "timestamp": "2026-10-13T11:15:15.846Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 317
+    },
+    {
+      "id": "log_1791890049963",
+      "timestamp": "2026-10-13T11:14:09.963Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791890049957_ngknx from CE, verified=true",
+      "clock": 316,
+      "vectorClock": {
+        "CE": 192,
+        "IT": 194,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791890006359",
+      "timestamp": "2026-10-13T11:13:26.359Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791890006352_nqwjz from CE, verified=true",
+      "clock": 301,
+      "vectorClock": {
+        "CE": 176,
+        "IT": 179,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791890004041",
+      "timestamp": "2026-10-13T11:13:24.041Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 299
+    },
+    {
+      "id": "log_1791889998147",
+      "timestamp": "2026-10-13T11:13:18.147Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791889998139_4i4qz from CE, verified=true",
+      "clock": 297,
+      "vectorClock": {
+        "CE": 171,
+        "IT": 175,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791889905081",
+      "timestamp": "2026-10-13T11:11:45.081Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 265
+    },
+    {
+      "id": "log_1791889655675",
+      "timestamp": "2026-10-13T11:07:35.675Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791889655667_ip5eb from CE, verified=true",
+      "clock": 264,
+      "vectorClock": {
+        "CE": 138,
+        "IT": 142,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791889654036",
+      "timestamp": "2026-10-13T11:07:34.036Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 263
+    },
+    {
+      "id": "log_1791889652414",
+      "timestamp": "2026-10-13T11:07:32.414Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 262
+    },
+    {
+      "id": "log_1791889650798",
+      "timestamp": "2026-10-13T11:07:30.798Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 262
+    },
+    {
+      "id": "log_1791889647979",
+      "timestamp": "2026-10-13T11:07:27.979Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 261
+    },
+    {
+      "id": "log_1791889644918",
+      "timestamp": "2026-10-13T11:07:24.918Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 260
+    },
+    {
+      "id": "log_1791889644907",
+      "timestamp": "2026-10-13T11:07:24.907Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 259
+    },
+    {
+      "id": "log_1791889642279",
+      "timestamp": "2026-10-13T11:07:22.279Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 257
+    },
+    {
+      "id": "log_1791889639950",
+      "timestamp": "2026-10-13T11:07:19.950Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 256
+    },
+    {
+      "id": "log_1791889612120",
+      "timestamp": "2026-10-13T11:06:52.120Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 247
+    },
+    {
+      "id": "log_1791889363537",
+      "timestamp": "2026-10-13T11:02:43.537Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791889363524_27e4n from CE, verified=true",
+      "clock": 246,
+      "vectorClock": {
+        "CE": 122,
+        "IT": 124,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791889361887",
+      "timestamp": "2026-10-13T11:02:41.887Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 245
+    },
+    {
+      "id": "log_1791889360268",
+      "timestamp": "2026-10-13T11:02:40.268Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 244
+    },
+    {
+      "id": "log_1791889358657",
+      "timestamp": "2026-10-13T11:02:38.657Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 244
+    },
+    {
+      "id": "log_1791889354591",
+      "timestamp": "2026-10-13T11:02:34.591Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 242
+    },
+    {
+      "id": "log_1791889354580",
+      "timestamp": "2026-10-13T11:02:34.580Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 241
+    },
+    {
+      "id": "log_1791889351948",
+      "timestamp": "2026-10-13T11:02:31.948Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 239
+    },
+    {
+      "id": "log_1791889349613",
+      "timestamp": "2026-10-13T11:02:29.613Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 239
+    },
+    {
+      "id": "log_1791889215093",
+      "timestamp": "2026-10-13T11:00:15.093Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 194
+    },
+    {
+      "id": "log_1791888605295",
+      "timestamp": "2026-10-13T10:50:05.295Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Regression Download Test",
+      "clock": 193
+    },
+    {
+      "id": "log_1791888604250",
+      "timestamp": "2026-10-13T10:50:04.250Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791888604240_piscl from CE, verified=true",
+      "clock": 189,
+      "vectorClock": {
+        "CE": 67,
+        "IT": 67,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791888494407",
+      "timestamp": "2026-10-13T10:48:14.407Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Regression Download Test",
+      "clock": 180
+    },
+    {
+      "id": "log_1791888493379",
+      "timestamp": "2026-10-13T10:48:13.379Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791888493369_pukyy from CE, verified=true",
+      "clock": 177,
+      "vectorClock": {
+        "CE": 0,
+        "IT": 57,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791887691272",
+      "timestamp": "2026-10-13T10:34:51.272Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Regression Resource",
+      "clock": 118
+    },
+    {
+      "id": "log_1791887691262",
+      "timestamp": "2026-10-13T10:34:51.262Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_invalid_1791887691259 from CE, verified=true",
+      "clock": 117
+    },
+    {
+      "id": "log_1791887691257",
+      "timestamp": "2026-10-13T10:34:51.257Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_invalid_1791887691254 from CE, verified=true",
+      "clock": 115
+    },
+    {
+      "id": "log_1791887691252",
+      "timestamp": "2026-10-13T10:34:51.252Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_invalid_1791887691249 from CE, verified=true",
+      "clock": 113
+    },
+    {
+      "id": "log_1791887691243",
+      "timestamp": "2026-10-13T10:34:51.243Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_remote_test_1791887691239 from CE, verified=true",
+      "clock": 110
+    },
+    {
+      "id": "log_1791887691225",
+      "timestamp": "2026-10-13T10:34:51.225Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791887691215_wf0du from CE, verified=true",
+      "clock": 83
+    },
+    {
+      "id": "log_1791887538330",
+      "timestamp": "2026-10-13T10:32:18.330Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_direct_test from CE, verified=true",
+      "clock": 70
+    },
+    {
+      "id": "log_1791887538305",
+      "timestamp": "2026-10-13T10:32:18.305Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791887538295_a7n32 from CE, verified=true",
+      "clock": 18
+    },
+    {
+      "id": "log_1791886958051",
+      "timestamp": "2026-10-13T10:22:38.051Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Regression Normal Test",
+      "clock": 91
+    },
+    {
+      "id": "log_1791886958035",
+      "timestamp": "2026-10-13T10:22:38.035Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886957997_5po13 from CE, verified=true",
+      "clock": 90
+    },
+    {
+      "id": "log_1791886958005",
+      "timestamp": "2026-10-13T10:22:38.005Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886957997_5po13 from CE, verified=true",
+      "clock": 89
+    },
+    {
+      "id": "log_1791886957967",
+      "timestamp": "2026-10-13T10:22:37.967Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886957963_0xf55 from CE, verified=true",
+      "clock": 88
+    },
+    {
+      "id": "log_1791886945642",
+      "timestamp": "2026-10-13T10:22:25.642Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886945617_vegzf from CE, verified=true",
+      "clock": 82
+    },
+    {
+      "id": "log_1791886945621",
+      "timestamp": "2026-10-13T10:22:25.621Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886945617_vegzf from CE, verified=true",
+      "clock": 81
+    },
+    {
+      "id": "log_1791886945593",
+      "timestamp": "2026-10-13T10:22:25.593Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886945589_o4it9 from CE, verified=true",
+      "clock": 80
+    },
+    {
+      "id": "log_1791886731945",
+      "timestamp": "2026-10-13T10:18:51.945Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886731897_xdb77 from CE, verified=true",
+      "clock": 8
+    },
+    {
+      "id": "log_1791886731924",
+      "timestamp": "2026-10-13T10:18:51.924Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886731897_xdb77 from CE, verified=true",
+      "clock": 6
+    },
+    {
+      "id": "log_1791886731908",
+      "timestamp": "2026-10-13T10:18:51.908Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 5
+    },
+    {
+      "id": "log_1791886731892",
+      "timestamp": "2026-10-13T10:18:51.892Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 4
+    },
+    {
+      "id": "log_1791886731862",
+      "timestamp": "2026-10-13T10:18:51.862Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886731853_o0iq2 from CE, verified=true",
+      "clock": 3
+    },
+    {
+      "id": "log_1791886637451",
+      "timestamp": "2026-10-13T10:17:17.451Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886637403_u7yj2 from CE, verified=true",
+      "clock": 25
+    },
+    {
+      "id": "log_1791886637429",
+      "timestamp": "2026-10-13T10:17:17.429Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886637403_u7yj2 from CE, verified=true",
+      "clock": 23
+    },
+    {
+      "id": "log_1791886637413",
+      "timestamp": "2026-10-13T10:17:17.413Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 22
+    },
+    {
+      "id": "log_1791886637398",
+      "timestamp": "2026-10-13T10:17:17.398Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 21
+    },
+    {
+      "id": "log_1791886637371",
+      "timestamp": "2026-10-13T10:17:17.371Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886637365_35pf9 from CE, verified=true",
+      "clock": 20
+    },
+    {
+      "id": "log_1791886589285",
+      "timestamp": "2026-10-13T10:16:29.285Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886137611_8tsnt from CE, verified=true",
+      "clock": 3
+    },
+    {
+      "id": "log_1791886589279",
+      "timestamp": "2026-10-13T10:16:29.279Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791885884555_piqf0 from CE, verified=true",
+      "clock": 2
+    }
+  ],
+  "nodeInfo": {
+    "nodeId": "node-it",
+    "department": "IT",
+    "status": "ONLINE",
+    "lastPing": "2026-10-13T13:16:40.743Z",
+    "lamportClock": 3928,
+    "vectorClock": {
+      "CE": 3802,
+      "IT": 3801,
+      "E&TC": 0
+    },
+    "leader": "E&TC"
+  }
+}

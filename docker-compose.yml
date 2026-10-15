@@ -1,0 +1,68 @@
+services:
+  api-gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile.gateway
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - NODE_CE_URL=http://node-ce:5001
+      - NODE_IT_URL=http://node-it:5002
+      - NODE_ETC_URL=http://node-etc:5003
+    volumes:
+      - ./uploads:/app/uploads
+      - ./data/dfs_master:/app/data/dfs_master
+    restart: always
+
+  node-ce:
+    build:
+      context: .
+      dockerfile: Dockerfile.node
+    command: ["node", "services/node-ce/server.js"]
+    ports:
+      - "5001:5001"
+    environment:
+      - PORT=5001
+    volumes:
+      - ./data/node-ce:/app/data/node-ce
+      - ./uploads/CE:/app/uploads/CE
+    restart: always
+
+  node-it:
+    build:
+      context: .
+      dockerfile: Dockerfile.node
+    command: ["node", "services/node-it/server.js"]
+    ports:
+      - "5002:5002"
+    environment:
+      - PORT=5002
+    volumes:
+      - ./data/node-it:/app/data/node-it
+      - ./uploads/IT:/app/uploads/IT
+    restart: always
+
+  node-etc:
+    build:
+      context: .
+      dockerfile: Dockerfile.node
+    command: ["node", "services/node-etc/server.js"]
+    ports:
+      - "5003:5003"
+    environment:
+      - PORT=5003
+    volumes:
+      - ./data/node-etc:/app/data/node-etc
+      - ./uploads/E&TC:/app/uploads/E&TC
+    restart: always
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_GATEWAY_URL=http://api-gateway:5000
+    restart: always

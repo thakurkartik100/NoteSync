@@ -1,0 +1,893 @@
+{
+  "users": [
+    {
+      "id": "u_student_1",
+      "name": "Demo Student",
+      "email": "student@college.edu",
+      "password": "password123",
+      "department": "ETC"
+    }
+  ],
+  "resources": [
+    {
+      "id": "res_1791885078344_m3yk6",
+      "uploadDate": "2026-10-13T09:51:18.344Z",
+      "title": "Test Resource E&TC",
+      "description": "",
+      "subject": "Electronics & Telecommunication",
+      "department": "E&TC",
+      "resourceType": "Notes",
+      "filePath": "/uploads/E&TC/ETC_1791885078341-808199590.txt",
+      "fileName": "test.txt",
+      "fileSize": 49,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-etc",
+      "vectorClock": {
+        "CE": 0,
+        "IT": 0,
+        "E&TC": 115,
+        "GATEWAY": 3
+      }
+    },
+    {
+      "id": "res_1791885884404_kkwqr",
+      "uploadDate": "2026-10-13T10:04:44.404Z",
+      "title": "Replication Test E&TC",
+      "description": "",
+      "subject": "Electronics & Telecommunication",
+      "department": "E&TC",
+      "resourceType": "Notes",
+      "filePath": "/uploads/E&TC/ETC_1791885884403-951537465.txt",
+      "fileName": "repl_test.txt",
+      "fileSize": 42,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-etc",
+      "vectorClock": {
+        "CE": 0,
+        "IT": 0,
+        "E&TC": 88,
+        "GATEWAY": 3
+      }
+    },
+    {
+      "id": "res_1791886137588_ofbam",
+      "uploadDate": "2026-10-13T10:08:57.588Z",
+      "title": "Replication Test E&TC",
+      "description": "",
+      "subject": "Electronics & Telecommunication",
+      "department": "E&TC",
+      "resourceType": "Notes",
+      "filePath": "/uploads/E&TC/ETC_1791886137587-935266788.txt",
+      "fileName": "repl_test.txt",
+      "fileSize": 42,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-etc",
+      "vectorClock": {
+        "CE": 0,
+        "IT": 0,
+        "E&TC": 173,
+        "GATEWAY": 10
+      }
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_1791900889133",
+      "timestamp": "2026-10-13T14:14:49.133Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791900889057_eeexw from CE, verified=true",
+      "clock": 3958,
+      "vectorClock": {
+        "CE": 3802,
+        "IT": 377,
+        "E&TC": 3790
+      }
+    },
+    {
+      "id": "log_1791897411604",
+      "timestamp": "2026-10-13T13:16:51.604Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791897411587_ov9a9 from CE, verified=true",
+      "clock": 2796,
+      "vectorClock": {
+        "CE": 2639,
+        "IT": 377,
+        "E&TC": 2628
+      }
+    },
+    {
+      "id": "log_1791897402289",
+      "timestamp": "2026-10-13T13:16:42.289Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 2792
+    },
+    {
+      "id": "log_1791897398080",
+      "timestamp": "2026-10-13T13:16:38.080Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 2791
+    },
+    {
+      "id": "log_1791896696329",
+      "timestamp": "2026-10-13T13:04:56.329Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791896696317_guy74 from CE, verified=true",
+      "clock": 2557,
+      "vectorClock": {
+        "CE": 2400,
+        "IT": 377,
+        "E&TC": 2389
+      }
+    },
+    {
+      "id": "log_1791896691921",
+      "timestamp": "2026-10-13T13:04:51.921Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 2554
+    },
+    {
+      "id": "log_1791896688067",
+      "timestamp": "2026-10-13T13:04:48.067Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 2553
+    },
+    {
+      "id": "log_1791896688063",
+      "timestamp": "2026-10-13T13:04:48.063Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource res_1791896688041_dcouw lock released",
+      "clock": 2552
+    },
+    {
+      "id": "log_1791896688060",
+      "timestamp": "2026-10-13T13:04:48.060Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_1791896688041_dcouw locked by API_GATEWAY for 3000ms",
+      "clock": 2551
+    },
+    {
+      "id": "log_1791896688058",
+      "timestamp": "2026-10-13T13:04:48.058Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource res_1791896688041_dcouw lock released",
+      "clock": 2550
+    },
+    {
+      "id": "log_1791896688055",
+      "timestamp": "2026-10-13T13:04:48.055Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_1791896688041_dcouw locked by IT for 4000ms",
+      "clock": 2549
+    },
+    {
+      "id": "log_1791896688051",
+      "timestamp": "2026-10-13T13:04:48.051Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791896688041_dcouw from CE, verified=true",
+      "clock": 2548,
+      "vectorClock": {
+        "CE": 2395,
+        "IT": 377,
+        "E&TC": 2384
+      }
+    },
+    {
+      "id": "log_1791896688034",
+      "timestamp": "2026-10-13T13:04:48.034Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_expire_test_1791896686923 locked by IT for 2000ms",
+      "clock": 2547
+    },
+    {
+      "id": "log_1791896686924",
+      "timestamp": "2026-10-13T13:04:46.924Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_expire_test_1791896686923 locked by CE for 800ms",
+      "clock": 2545
+    },
+    {
+      "id": "log_1791896686921",
+      "timestamp": "2026-10-13T13:04:46.921Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_mutex_test_1791896686862 locked by IT for 1000ms",
+      "clock": 2544
+    },
+    {
+      "id": "log_1791896686918",
+      "timestamp": "2026-10-13T13:04:46.918Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource res_mutex_test_1791896686862 lock released",
+      "clock": 2543
+    },
+    {
+      "id": "log_1791896686904",
+      "timestamp": "2026-10-13T13:04:46.904Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_mutex_test_1791896686862 locked by CE for 3000ms",
+      "clock": 2542
+    },
+    {
+      "id": "log_1791896679146",
+      "timestamp": "2026-10-13T13:04:39.146Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791896679136_rkslp from CE, verified=true",
+      "clock": 2539,
+      "vectorClock": {
+        "CE": 2390,
+        "IT": 377,
+        "E&TC": 2380
+      }
+    },
+    {
+      "id": "log_1791896669840",
+      "timestamp": "2026-10-13T13:04:29.841Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 2535
+    },
+    {
+      "id": "log_1791896665637",
+      "timestamp": "2026-10-13T13:04:25.637Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 2534
+    },
+    {
+      "id": "log_1791891087109",
+      "timestamp": "2026-10-13T11:31:27.109Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791891087099_f110h from CE, verified=true",
+      "clock": 680,
+      "vectorClock": {
+        "CE": 530,
+        "IT": 377,
+        "E&TC": 521
+      }
+    },
+    {
+      "id": "log_1791891082743",
+      "timestamp": "2026-10-13T11:31:22.743Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 677
+    },
+    {
+      "id": "log_1791891078906",
+      "timestamp": "2026-10-13T11:31:18.906Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 676
+    },
+    {
+      "id": "log_1791891078904",
+      "timestamp": "2026-10-13T11:31:18.904Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource res_1791891078884_bpa2m lock released",
+      "clock": 675
+    },
+    {
+      "id": "log_1791891078901",
+      "timestamp": "2026-10-13T11:31:18.901Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_1791891078884_bpa2m locked by API_GATEWAY for 3000ms",
+      "clock": 674
+    },
+    {
+      "id": "log_1791891078899",
+      "timestamp": "2026-10-13T11:31:18.899Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource res_1791891078884_bpa2m lock released",
+      "clock": 673
+    },
+    {
+      "id": "log_1791891078896",
+      "timestamp": "2026-10-13T11:31:18.896Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_1791891078884_bpa2m locked by IT for 4000ms",
+      "clock": 672
+    },
+    {
+      "id": "log_1791891078892",
+      "timestamp": "2026-10-13T11:31:18.892Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791891078884_bpa2m from CE, verified=true",
+      "clock": 671,
+      "vectorClock": {
+        "CE": 525,
+        "IT": 377,
+        "E&TC": 516
+      }
+    },
+    {
+      "id": "log_1791891078879",
+      "timestamp": "2026-10-13T11:31:18.879Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_expire_test_1791891077759 locked by IT for 2000ms",
+      "clock": 670
+    },
+    {
+      "id": "log_1791891077760",
+      "timestamp": "2026-10-13T11:31:17.760Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_expire_test_1791891077759 locked by CE for 800ms",
+      "clock": 669
+    },
+    {
+      "id": "log_1791891077757",
+      "timestamp": "2026-10-13T11:31:17.757Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_mutex_test_1791891077710 locked by IT for 1000ms",
+      "clock": 668
+    },
+    {
+      "id": "log_1791891077755",
+      "timestamp": "2026-10-13T11:31:17.755Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource res_mutex_test_1791891077710 lock released",
+      "clock": 667
+    },
+    {
+      "id": "log_1791891077743",
+      "timestamp": "2026-10-13T11:31:17.743Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_mutex_test_1791891077710 locked by CE for 3000ms",
+      "clock": 666
+    },
+    {
+      "id": "log_1791891065831",
+      "timestamp": "2026-10-13T11:31:05.831Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791891065824_w60w3 from CE, verified=true",
+      "clock": 661,
+      "vectorClock": {
+        "CE": 519,
+        "IT": 377,
+        "E&TC": 511
+      }
+    },
+    {
+      "id": "log_1791891056594",
+      "timestamp": "2026-10-13T11:30:56.594Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 657
+    },
+    {
+      "id": "log_1791891052420",
+      "timestamp": "2026-10-13T11:30:52.420Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 656
+    },
+    {
+      "id": "log_1791890643151",
+      "timestamp": "2026-10-13T11:24:03.151Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791890643143_hejlg from IT, verified=true",
+      "clock": 519,
+      "vectorClock": {
+        "CE": 374,
+        "IT": 377,
+        "E&TC": 369
+      }
+    },
+    {
+      "id": "log_1791890642125",
+      "timestamp": "2026-10-13T11:24:02.125Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791890642117_l7yqd from CE, verified=true",
+      "clock": 517,
+      "vectorClock": {
+        "CE": 374,
+        "IT": 71,
+        "E&TC": 367
+      }
+    },
+    {
+      "id": "log_1791890171035",
+      "timestamp": "2026-10-13T11:16:11.035Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791890171022_je9fl from CE, verified=true",
+      "clock": 359,
+      "vectorClock": {
+        "CE": 214,
+        "IT": 71,
+        "E&TC": 209
+      }
+    },
+    {
+      "id": "log_1791890166670",
+      "timestamp": "2026-10-13T11:16:06.670Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 357
+    },
+    {
+      "id": "log_1791890162844",
+      "timestamp": "2026-10-13T11:16:02.844Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 356
+    },
+    {
+      "id": "log_1791890162841",
+      "timestamp": "2026-10-13T11:16:02.841Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource res_1791890162812_bz0ql lock released",
+      "clock": 355
+    },
+    {
+      "id": "log_1791890162838",
+      "timestamp": "2026-10-13T11:16:02.838Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_1791890162812_bz0ql locked by API_GATEWAY for 3000ms",
+      "clock": 354
+    },
+    {
+      "id": "log_1791890162836",
+      "timestamp": "2026-10-13T11:16:02.836Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource res_1791890162812_bz0ql lock released",
+      "clock": 353
+    },
+    {
+      "id": "log_1791890162832",
+      "timestamp": "2026-10-13T11:16:02.832Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_1791890162812_bz0ql locked by IT for 4000ms",
+      "clock": 352
+    },
+    {
+      "id": "log_1791890162828",
+      "timestamp": "2026-10-13T11:16:02.828Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791890162812_bz0ql from CE, verified=true",
+      "clock": 351,
+      "vectorClock": {
+        "CE": 209,
+        "IT": 71,
+        "E&TC": 205
+      }
+    },
+    {
+      "id": "log_1791890162796",
+      "timestamp": "2026-10-13T11:16:02.796Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_expire_test_1791890161682 locked by IT for 2000ms",
+      "clock": 350
+    },
+    {
+      "id": "log_1791890161683",
+      "timestamp": "2026-10-13T11:16:01.683Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_expire_test_1791890161682 locked by CE for 800ms",
+      "clock": 349
+    },
+    {
+      "id": "log_1791890161679",
+      "timestamp": "2026-10-13T11:16:01.679Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_mutex_test_1791890161617 locked by IT for 1000ms",
+      "clock": 348
+    },
+    {
+      "id": "log_1791890161676",
+      "timestamp": "2026-10-13T11:16:01.676Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource res_mutex_test_1791890161617 lock released",
+      "clock": 347
+    },
+    {
+      "id": "log_1791890161661",
+      "timestamp": "2026-10-13T11:16:01.661Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_mutex_test_1791890161617 locked by CE for 3000ms",
+      "clock": 346
+    },
+    {
+      "id": "log_1791890049977",
+      "timestamp": "2026-10-13T11:14:09.977Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource res_1791890049957_ngknx lock released",
+      "clock": 331
+    },
+    {
+      "id": "log_1791890049975",
+      "timestamp": "2026-10-13T11:14:09.975Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_1791890049957_ngknx locked by API_GATEWAY for 3000ms",
+      "clock": 330
+    },
+    {
+      "id": "log_1791890049966",
+      "timestamp": "2026-10-13T11:14:09.966Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791890049957_ngknx from CE, verified=true",
+      "clock": 329,
+      "vectorClock": {
+        "CE": 192,
+        "IT": 71,
+        "E&TC": 188
+      }
+    },
+    {
+      "id": "log_1791890006362",
+      "timestamp": "2026-10-13T11:13:26.362Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791890006352_nqwjz from CE, verified=true",
+      "clock": 314,
+      "vectorClock": {
+        "CE": 176,
+        "IT": 71,
+        "E&TC": 173
+      }
+    },
+    {
+      "id": "log_1791890001999",
+      "timestamp": "2026-10-13T11:13:21.999Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 311
+    },
+    {
+      "id": "log_1791889998170",
+      "timestamp": "2026-10-13T11:13:18.170Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 310
+    },
+    {
+      "id": "log_1791889998167",
+      "timestamp": "2026-10-13T11:13:18.167Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource res_1791889998139_4i4qz lock released",
+      "clock": 309
+    },
+    {
+      "id": "log_1791889998164",
+      "timestamp": "2026-10-13T11:13:18.164Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_1791889998139_4i4qz locked by API_GATEWAY for 3000ms",
+      "clock": 308
+    },
+    {
+      "id": "log_1791889998162",
+      "timestamp": "2026-10-13T11:13:18.162Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource res_1791889998139_4i4qz lock released",
+      "clock": 307
+    },
+    {
+      "id": "log_1791889998158",
+      "timestamp": "2026-10-13T11:13:18.158Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_1791889998139_4i4qz locked by IT for 4000ms",
+      "clock": 306
+    },
+    {
+      "id": "log_1791889998154",
+      "timestamp": "2026-10-13T11:13:18.154Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791889998139_4i4qz from CE, verified=true",
+      "clock": 305,
+      "vectorClock": {
+        "CE": 171,
+        "IT": 71,
+        "E&TC": 168
+      }
+    },
+    {
+      "id": "log_1791889998126",
+      "timestamp": "2026-10-13T11:13:18.126Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_expire_test_1791889997012 locked by IT for 2000ms",
+      "clock": 304
+    },
+    {
+      "id": "log_1791889997013",
+      "timestamp": "2026-10-13T11:13:17.013Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_expire_test_1791889997012 locked by CE for 800ms",
+      "clock": 302
+    },
+    {
+      "id": "log_1791889997009",
+      "timestamp": "2026-10-13T11:13:17.009Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_mutex_test_1791889996960 locked by IT for 1000ms",
+      "clock": 301
+    },
+    {
+      "id": "log_1791889997006",
+      "timestamp": "2026-10-13T11:13:17.006Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource res_mutex_test_1791889996960 lock released",
+      "clock": 300
+    },
+    {
+      "id": "log_1791889996994",
+      "timestamp": "2026-10-13T11:13:16.994Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource res_mutex_test_1791889996960 locked by CE for 3000ms",
+      "clock": 299
+    },
+    {
+      "id": "log_1791889959818",
+      "timestamp": "2026-10-13T11:12:39.818Z",
+      "event": "LOCK_RELEASED",
+      "details": "Resource mutex_race lock released",
+      "clock": 286
+    },
+    {
+      "id": "log_1791889948175",
+      "timestamp": "2026-10-13T11:12:28.175Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource mutex_race locked by IT for 5000ms",
+      "clock": 281
+    },
+    {
+      "id": "log_1791889937940",
+      "timestamp": "2026-10-13T11:12:17.940Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource test_res_1 locked by IT for 4000ms",
+      "clock": 277
+    },
+    {
+      "id": "log_1791889921418",
+      "timestamp": "2026-10-13T11:12:01.418Z",
+      "event": "LOCK_ACQUIRED",
+      "details": "Resource test_res_1 locked by CE for 4000ms",
+      "clock": 270
+    },
+    {
+      "id": "log_1791889655683",
+      "timestamp": "2026-10-13T11:07:35.683Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791889655667_ip5eb from CE, verified=true",
+      "clock": 263,
+      "vectorClock": {
+        "CE": 138,
+        "IT": 71,
+        "E&TC": 135
+      }
+    },
+    {
+      "id": "log_1791889646448",
+      "timestamp": "2026-10-13T11:07:26.448Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 259
+    },
+    {
+      "id": "log_1791889642281",
+      "timestamp": "2026-10-13T11:07:22.281Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 258
+    },
+    {
+      "id": "log_1791889363544",
+      "timestamp": "2026-10-13T11:02:43.544Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791889363524_27e4n from CE, verified=true",
+      "clock": 246,
+      "vectorClock": {
+        "CE": 122,
+        "IT": 71,
+        "E&TC": 118
+      }
+    },
+    {
+      "id": "log_1791889356120",
+      "timestamp": "2026-10-13T11:02:36.120Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to ONLINE",
+      "clock": 242
+    },
+    {
+      "id": "log_1791889351951",
+      "timestamp": "2026-10-13T11:02:31.951Z",
+      "event": "STATUS_CHANGE",
+      "details": "Node set to OFFLINE",
+      "clock": 241
+    },
+    {
+      "id": "log_1791888605306",
+      "timestamp": "2026-10-13T10:50:05.306Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791888605295_9uadw from IT, verified=true",
+      "clock": 194,
+      "vectorClock": {
+        "CE": 67,
+        "IT": 71,
+        "E&TC": 67
+      }
+    },
+    {
+      "id": "log_1791888604260",
+      "timestamp": "2026-10-13T10:50:04.260Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791888604240_piscl from CE, verified=true",
+      "clock": 189,
+      "vectorClock": {
+        "CE": 67,
+        "IT": 0,
+        "E&TC": 64
+      }
+    },
+    {
+      "id": "log_1791888494416",
+      "timestamp": "2026-10-13T10:48:14.416Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791888494407_8pp60 from IT, verified=true",
+      "clock": 181,
+      "vectorClock": {
+        "CE": 0,
+        "IT": 0,
+        "E&TC": 58
+      }
+    },
+    {
+      "id": "log_1791888493387",
+      "timestamp": "2026-10-13T10:48:13.387Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791888493369_pukyy from CE, verified=true",
+      "clock": 177,
+      "vectorClock": {
+        "CE": 0,
+        "IT": 0,
+        "E&TC": 56
+      }
+    },
+    {
+      "id": "log_1791887691282",
+      "timestamp": "2026-10-13T10:34:51.282Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791887691271_xp7rh from IT, verified=true",
+      "clock": 119
+    },
+    {
+      "id": "log_1791887691233",
+      "timestamp": "2026-10-13T10:34:51.233Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791887691215_wf0du from CE, verified=true",
+      "clock": 32
+    },
+    {
+      "id": "log_1791887538313",
+      "timestamp": "2026-10-13T10:32:18.313Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791887538295_a7n32 from CE, verified=true",
+      "clock": 18
+    },
+    {
+      "id": "log_1791886958059",
+      "timestamp": "2026-10-13T10:22:38.059Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886958051_mmi96 from IT, verified=true",
+      "clock": 86
+    },
+    {
+      "id": "log_1791886958012",
+      "timestamp": "2026-10-13T10:22:38.012Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886957997_5po13 from CE, verified=true",
+      "clock": 85
+    },
+    {
+      "id": "log_1791886957970",
+      "timestamp": "2026-10-13T10:22:37.970Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886957963_0xf55 from CE, verified=true",
+      "clock": 84
+    },
+    {
+      "id": "log_1791886945624",
+      "timestamp": "2026-10-13T10:22:25.624Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886945617_vegzf from CE, verified=true",
+      "clock": 78
+    },
+    {
+      "id": "log_1791886945597",
+      "timestamp": "2026-10-13T10:22:25.597Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886945589_o4it9 from CE, verified=true",
+      "clock": 77
+    },
+    {
+      "id": "log_1791886731904",
+      "timestamp": "2026-10-13T10:18:51.904Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886731897_xdb77 from CE, verified=true",
+      "clock": 4
+    },
+    {
+      "id": "log_1791886731873",
+      "timestamp": "2026-10-13T10:18:51.873Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886731853_o0iq2 from CE, verified=true",
+      "clock": 3
+    },
+    {
+      "id": "log_1791886637409",
+      "timestamp": "2026-10-13T10:17:17.409Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886637403_u7yj2 from CE, verified=true",
+      "clock": 19
+    },
+    {
+      "id": "log_1791886637378",
+      "timestamp": "2026-10-13T10:17:17.378Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886637365_35pf9 from CE, verified=true",
+      "clock": 18
+    },
+    {
+      "id": "log_1791886137633",
+      "timestamp": "2026-10-13T10:08:57.633Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886137627_2sq6r from CE, verified=true",
+      "clock": 181
+    },
+    {
+      "id": "log_1791886137616",
+      "timestamp": "2026-10-13T10:08:57.616Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886137611_8tsnt from CE, verified=true",
+      "clock": 180
+    },
+    {
+      "id": "log_1791886137589",
+      "timestamp": "2026-10-13T10:08:57.589Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Replication Test E&TC",
+      "clock": 179
+    },
+    {
+      "id": "log_1791886137575",
+      "timestamp": "2026-10-13T10:08:57.575Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886137568_2rlxl from IT, verified=true",
+      "clock": 178
+    },
+    {
+      "id": "log_1791886137551",
+      "timestamp": "2026-10-13T10:08:57.551Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791886137544_4kqoq from CE, verified=true",
+      "clock": 177
+    },
+    {
+      "id": "log_1791885884578",
+      "timestamp": "2026-10-13T10:04:44.578Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791885884571_9h3b7 from CE, verified=true",
+      "clock": 92
+    },
+    {
+      "id": "log_1791885884559",
+      "timestamp": "2026-10-13T10:04:44.559Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791885884555_piqf0 from CE, verified=true",
+      "clock": 91
+    }
+  ],
+  "nodeInfo": {
+    "nodeId": "node-etc",
+    "department": "ETC",
+    "status": "ONLINE",
+    "lastPing": "2026-10-13T13:16:42.288Z",
+    "lamportClock": 3958,
+    "vectorClock": {
+      "CE": 3802,
+      "IT": 377,
+      "E&TC": 3790
+    },
+    "leader": "E&TC"
+  }
+}

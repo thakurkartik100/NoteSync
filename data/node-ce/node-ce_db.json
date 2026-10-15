@@ -1,0 +1,1363 @@
+{
+  "users": [
+    {
+      "id": "u_student_1",
+      "name": "Demo Student",
+      "email": "student@college.edu",
+      "password": "password123",
+      "department": "CE"
+    }
+  ],
+  "resources": [
+    {
+      "id": "res_ce_1",
+      "title": "Distributed Systems Unit 1 & 2 Lecture Notes",
+      "description": "Comprehensive notes covering Architecture, RPC, Middleware, and Lamport Clocks.",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "fileName": "DS_Unit1_Unit2_Notes.pdf",
+      "filePath": "/uploads/CE/sample_ds_notes.pdf",
+      "fileSize": 460800,
+      "uploadedBy": "Prof. A. Sharma (CE)",
+      "uploadDate": "2026-08-22T06:06:35.220Z",
+      "nodeId": "node-ce"
+    },
+    {
+      "id": "res_1787552668194_jmalx",
+      "uploadDate": "2026-08-24T06:24:28.194Z",
+      "title": "Distributed System Assignment 2 ",
+      "description": "",
+      "subject": "Distributed System",
+      "department": "CE",
+      "resourceType": "Assignments",
+      "filePath": "",
+      "fileName": "",
+      "fileSize": 0,
+      "uploadedBy": "Rohan",
+      "nodeId": "node-ce"
+    },
+    {
+      "id": "res_1791885063827_qf4qa",
+      "uploadDate": "2026-10-13T09:51:03.827Z",
+      "title": "Test Resource CE",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791885063825-958902055.txt",
+      "fileName": "test.txt",
+      "fileSize": 47,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 110,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 1
+      }
+    },
+    {
+      "id": "res_1791885884346_9a0mx",
+      "uploadDate": "2026-10-13T10:04:44.346Z",
+      "title": "Replication Test CE",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791885884344-637902538.txt",
+      "fileName": "repl_test.txt",
+      "fileSize": 40,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 88,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 1
+      }
+    },
+    {
+      "id": "res_1791885884555_piqf0",
+      "uploadDate": "2026-10-13T10:04:44.555Z",
+      "title": "Offline Node Test",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791885884554-749964771.txt",
+      "fileName": "offline_test.txt",
+      "fileSize": 29,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 89,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 5
+      }
+    },
+    {
+      "id": "res_1791885884571_9h3b7",
+      "uploadDate": "2026-10-13T10:04:44.571Z",
+      "title": "Loop Test",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791885884570-925318944.txt",
+      "fileName": "loop_test.txt",
+      "fileSize": 26,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 90,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 7
+      }
+    },
+    {
+      "id": "res_1791886137544_4kqoq",
+      "uploadDate": "2026-10-13T10:08:57.544Z",
+      "title": "Replication Test CE",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791886137543-826103149.txt",
+      "fileName": "repl_test.txt",
+      "fileSize": 40,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 175,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 8
+      }
+    },
+    {
+      "id": "res_1791886137611_8tsnt",
+      "uploadDate": "2026-10-13T10:08:57.611Z",
+      "title": "Offline Node Test",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791886137610-418812854.txt",
+      "fileName": "offline_test.txt",
+      "fileSize": 29,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 176,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 12
+      }
+    },
+    {
+      "id": "res_1791886137627_2sq6r",
+      "uploadDate": "2026-10-13T10:08:57.627Z",
+      "title": "Loop Test",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791886137627-551063996.txt",
+      "fileName": "loop_test.txt",
+      "fileSize": 26,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 177,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 14
+      }
+    },
+    {
+      "id": "res_1791886637365_35pf9",
+      "uploadDate": "2026-10-13T10:17:17.365Z",
+      "title": "Phase 2B Primary Test",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791886637362-74471810.txt",
+      "fileName": "test_2b_primary.txt",
+      "fileSize": 40,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 18,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 1
+      }
+    },
+    {
+      "id": "res_1791886637403_u7yj2",
+      "uploadDate": "2026-10-13T10:17:17.403Z",
+      "title": "Offline Secondary Test",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791886637402-72265755.txt",
+      "fileName": "test_offline_sec.txt",
+      "fileSize": 36,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 19,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 3
+      }
+    },
+    {
+      "id": "res_1791886731853_o0iq2",
+      "uploadDate": "2026-10-13T10:18:51.853Z",
+      "title": "Phase 2B Primary Test",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791886731850-691807023.txt",
+      "fileName": "test_2b_primary.txt",
+      "fileSize": 40,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 3,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 1
+      }
+    },
+    {
+      "id": "res_1791886731897_xdb77",
+      "uploadDate": "2026-10-13T10:18:51.897Z",
+      "title": "Offline Secondary Test",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791886731896-371500524.txt",
+      "fileName": "test_offline_sec.txt",
+      "fileSize": 36,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 4,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 3
+      }
+    },
+    {
+      "id": "res_1791886945589_o4it9",
+      "uploadDate": "2026-10-13T10:22:25.589Z",
+      "title": "Edge All Down Resource",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791886945588-879807869.txt",
+      "fileName": "edge_all_down.txt",
+      "fileSize": 49,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 79,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 7
+      }
+    },
+    {
+      "id": "res_1791886945617_vegzf",
+      "uploadDate": "2026-10-13T10:22:25.617Z",
+      "title": "Edge Fallback Source Resource",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791886945616-529301262.txt",
+      "fileName": "edge_fallback_source.txt",
+      "fileSize": 42,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 80,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 8
+      }
+    },
+    {
+      "id": "res_1791886957963_0xf55",
+      "uploadDate": "2026-10-13T10:22:37.963Z",
+      "title": "Edge All Down Resource",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791886957962-640483496.txt",
+      "fileName": "edge_all_down.txt",
+      "fileSize": 49,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 86,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 9
+      }
+    },
+    {
+      "id": "res_1791886957997_5po13",
+      "uploadDate": "2026-10-13T10:22:37.997Z",
+      "title": "Edge Fallback Source Resource",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791886957996-286077371.txt",
+      "fileName": "edge_fallback_source.txt",
+      "fileSize": 42,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "vectorClock": {
+        "CE": 87,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 10
+      }
+    },
+    {
+      "id": "res_1791887538295_a7n32",
+      "uploadDate": "2026-10-13T10:32:18.295Z",
+      "title": "Lamport Clock Resource",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791887538292-897564706.txt",
+      "fileName": "lamport_test.txt",
+      "fileSize": 39,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "lamportClock": 17,
+      "vectorClock": {
+        "CE": 17,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 1
+      }
+    },
+    {
+      "id": "res_1791887691215_wf0du",
+      "uploadDate": "2026-10-13T10:34:51.215Z",
+      "title": "Local Clock Test Resource",
+      "description": "",
+      "subject": "Computer Engineering",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791887691213-145477348.txt",
+      "fileName": "local_test.txt",
+      "fileSize": 35,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "lamportClock": 31,
+      "vectorClock": {
+        "CE": 14,
+        "IT": 0,
+        "E&TC": 0,
+        "GATEWAY": 1
+      }
+    },
+    {
+      "id": "res_1791888493369_pukyy",
+      "uploadDate": "2026-10-13T10:48:13.369Z",
+      "title": "Phase3B Vector Clock Test",
+      "description": "",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791888493365-629188539.txt",
+      "fileName": "phase3b_vec_test.txt",
+      "fileSize": 32,
+      "uploadedBy": "Phase3B Test",
+      "nodeId": "node-ce",
+      "lamportClock": 176,
+      "vectorClock": {
+        "CE": 57,
+        "IT": 0,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791888604240_piscl",
+      "uploadDate": "2026-10-13T10:50:04.240Z",
+      "title": "Phase3B Vector Clock Test",
+      "description": "",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791888604237-265073438.txt",
+      "fileName": "phase3b_vec_test.txt",
+      "fileSize": 32,
+      "uploadedBy": "Phase3B Test",
+      "nodeId": "node-ce",
+      "lamportClock": 188,
+      "vectorClock": {
+        "CE": 67,
+        "IT": 0,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791889363524_27e4n",
+      "uploadDate": "2026-10-13T11:02:43.524Z",
+      "title": "Phase3C Regression Resource",
+      "description": "",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791889363521-134390067.txt",
+      "fileName": "phase3c_regression.txt",
+      "fileSize": 32,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "lamportClock": 245,
+      "vectorClock": {
+        "CE": 122,
+        "IT": 71,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791889655667_ip5eb",
+      "uploadDate": "2026-10-13T11:07:35.667Z",
+      "title": "Phase3C Regression Resource",
+      "description": "",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791889655664-726797262.txt",
+      "fileName": "phase3c_regression.txt",
+      "fileSize": 32,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "lamportClock": 261,
+      "vectorClock": {
+        "CE": 138,
+        "IT": 71,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791890006352_nqwjz",
+      "uploadDate": "2026-10-13T11:13:26.352Z",
+      "title": "Phase 3D Final Verification",
+      "description": "",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791890006351-727967183.txt",
+      "fileName": "phase3d_reg.txt",
+      "fileSize": 40,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "lamportClock": 299,
+      "vectorClock": {
+        "CE": 176,
+        "IT": 71,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791890171022_je9fl",
+      "uploadDate": "2026-10-13T11:16:11.022Z",
+      "title": "Phase 3D Final Verification",
+      "description": "",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791890171020-544905941.txt",
+      "fileName": "phase3d_reg.txt",
+      "fileSize": 40,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "lamportClock": 337,
+      "vectorClock": {
+        "CE": 214,
+        "IT": 71,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791890642117_l7yqd",
+      "uploadDate": "2026-10-13T11:24:02.117Z",
+      "title": "Phase3B Vector Clock Test",
+      "description": "",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791890642115-307221210.txt",
+      "fileName": "phase3b_vec_test.txt",
+      "fileSize": 32,
+      "uploadedBy": "Phase3B Test",
+      "nodeId": "node-ce",
+      "lamportClock": 497,
+      "vectorClock": {
+        "CE": 374,
+        "IT": 71,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791891065824_w60w3",
+      "uploadDate": "2026-10-13T11:31:05.824Z",
+      "title": "Phase3C Regression Resource",
+      "description": "",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791891065822-537195626.txt",
+      "fileName": "phase3c_regression.txt",
+      "fileSize": 32,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "lamportClock": 644,
+      "vectorClock": {
+        "CE": 519,
+        "IT": 377,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791891087099_f110h",
+      "uploadDate": "2026-10-13T11:31:27.099Z",
+      "title": "Phase 3D Final Verification",
+      "description": "",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791891087097-914533060.txt",
+      "fileName": "phase3d_reg.txt",
+      "fileSize": 40,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "lamportClock": 655,
+      "vectorClock": {
+        "CE": 530,
+        "IT": 377,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791896679136_rkslp",
+      "uploadDate": "2026-10-13T13:04:39.136Z",
+      "title": "Phase3C Regression Resource",
+      "description": "",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791896679133-648458141.txt",
+      "fileName": "phase3c_regression.txt",
+      "fileSize": 32,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "lamportClock": 2515,
+      "vectorClock": {
+        "CE": 2390,
+        "IT": 377,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791896696317_guy74",
+      "uploadDate": "2026-10-13T13:04:56.317Z",
+      "title": "Phase 3D Final Verification",
+      "description": "",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791896696314-326719963.txt",
+      "fileName": "phase3d_reg.txt",
+      "fileSize": 40,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "lamportClock": 2525,
+      "vectorClock": {
+        "CE": 2400,
+        "IT": 377,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791897411587_ov9a9",
+      "uploadDate": "2026-10-13T13:16:51.587Z",
+      "title": "Phase3C Regression Resource",
+      "description": "",
+      "subject": "Distributed Systems",
+      "department": "CE",
+      "resourceType": "Notes",
+      "filePath": "/uploads/CE/CE_1791897411585-350173306.txt",
+      "fileName": "phase3c_regression.txt",
+      "fileSize": 32,
+      "uploadedBy": "Anonymous Student",
+      "nodeId": "node-ce",
+      "lamportClock": 2764,
+      "vectorClock": {
+        "CE": 2639,
+        "IT": 377,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "res_1791900889057_eeexw",
+      "uploadDate": "2026-10-13T14:14:49.057Z",
+      "title": "Ass_no_7",
+      "description": "",
+      "subject": "OOMD",
+      "department": "CE",
+      "resourceType": "Assignments",
+      "filePath": "/uploads/CE/CE_1791900889041-495488476.pdf",
+      "fileName": "123B1B067_Ass7_OOMD.pdf",
+      "fileSize": 284301,
+      "uploadedBy": "Kartik",
+      "nodeId": "node-ce",
+      "lamportClock": 3927,
+      "vectorClock": {
+        "CE": 3802,
+        "IT": 377,
+        "E&TC": 0
+      }
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_1792055807570",
+      "timestamp": "2026-10-15T09:16:47.571Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 12228
+    },
+    {
+      "id": "log_1792001638977",
+      "timestamp": "2026-10-14T18:13:58.977Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 8306
+    },
+    {
+      "id": "log_1792000543117",
+      "timestamp": "2026-10-14T17:55:43.117Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 8000
+    },
+    {
+      "id": "log_1792000542458",
+      "timestamp": "2026-10-14T17:55:42.458Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 8000
+    },
+    {
+      "id": "log_1791900889059",
+      "timestamp": "2026-10-13T14:14:49.059Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Ass_no_7",
+      "clock": 3927
+    },
+    {
+      "id": "log_1791897411587",
+      "timestamp": "2026-10-13T13:16:51.587Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Phase3C Regression Resource",
+      "clock": 2764
+    },
+    {
+      "id": "log_1791897410760",
+      "timestamp": "2026-10-13T13:16:50.760Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 2763
+    },
+    {
+      "id": "log_1791897409949",
+      "timestamp": "2026-10-13T13:16:49.949Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2763
+    },
+    {
+      "id": "log_1791897409129",
+      "timestamp": "2026-10-13T13:16:49.129Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 2762
+    },
+    {
+      "id": "log_1791897408325",
+      "timestamp": "2026-10-13T13:16:48.325Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2762
+    },
+    {
+      "id": "log_1791897407501",
+      "timestamp": "2026-10-13T13:16:47.501Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 2762
+    },
+    {
+      "id": "log_1791897406697",
+      "timestamp": "2026-10-13T13:16:46.697Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2762
+    },
+    {
+      "id": "log_1791897404672",
+      "timestamp": "2026-10-13T13:16:44.672Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 2761
+    },
+    {
+      "id": "log_1791897403859",
+      "timestamp": "2026-10-13T13:16:43.859Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2761
+    },
+    {
+      "id": "log_1791897400739",
+      "timestamp": "2026-10-13T13:16:40.739Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node CE",
+      "clock": 2760
+    },
+    {
+      "id": "log_1791897398901",
+      "timestamp": "2026-10-13T13:16:38.901Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node IT",
+      "clock": 2759
+    },
+    {
+      "id": "log_1791897398094",
+      "timestamp": "2026-10-13T13:16:38.094Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node IT",
+      "clock": 2759
+    },
+    {
+      "id": "log_1791897398071",
+      "timestamp": "2026-10-13T13:16:38.071Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2759
+    },
+    {
+      "id": "log_1791897396534",
+      "timestamp": "2026-10-13T13:16:36.534Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 2758
+    },
+    {
+      "id": "log_1791897395734",
+      "timestamp": "2026-10-13T13:16:35.734Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2758
+    },
+    {
+      "id": "log_1791896696317",
+      "timestamp": "2026-10-13T13:04:56.317Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Phase 3D Final Verification",
+      "clock": 2525
+    },
+    {
+      "id": "log_1791896694799",
+      "timestamp": "2026-10-13T13:04:54.799Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 2523
+    },
+    {
+      "id": "log_1791896693987",
+      "timestamp": "2026-10-13T13:04:53.987Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2523
+    },
+    {
+      "id": "log_1791896690407",
+      "timestamp": "2026-10-13T13:04:50.407Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node IT",
+      "clock": 2522
+    },
+    {
+      "id": "log_1791896689603",
+      "timestamp": "2026-10-13T13:04:49.603Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node IT",
+      "clock": 2521
+    },
+    {
+      "id": "log_1791896688042",
+      "timestamp": "2026-10-13T13:04:48.042Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Mutex Deletion Test File",
+      "clock": 2520
+    },
+    {
+      "id": "log_1791896679136",
+      "timestamp": "2026-10-13T13:04:39.136Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Phase3C Regression Resource",
+      "clock": 2515
+    },
+    {
+      "id": "log_1791896678291",
+      "timestamp": "2026-10-13T13:04:38.291Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 2514
+    },
+    {
+      "id": "log_1791896677479",
+      "timestamp": "2026-10-13T13:04:37.479Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2513
+    },
+    {
+      "id": "log_1791896676649",
+      "timestamp": "2026-10-13T13:04:36.649Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 2513
+    },
+    {
+      "id": "log_1791896675844",
+      "timestamp": "2026-10-13T13:04:35.844Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2513
+    },
+    {
+      "id": "log_1791896675026",
+      "timestamp": "2026-10-13T13:04:35.026Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 2513
+    },
+    {
+      "id": "log_1791896674227",
+      "timestamp": "2026-10-13T13:04:34.227Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2512
+    },
+    {
+      "id": "log_1791896672206",
+      "timestamp": "2026-10-13T13:04:32.206Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 2512
+    },
+    {
+      "id": "log_1791896671400",
+      "timestamp": "2026-10-13T13:04:31.400Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2511
+    },
+    {
+      "id": "log_1791896668288",
+      "timestamp": "2026-10-13T13:04:28.288Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node CE",
+      "clock": 2510
+    },
+    {
+      "id": "log_1791896666450",
+      "timestamp": "2026-10-13T13:04:26.450Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node IT",
+      "clock": 2510
+    },
+    {
+      "id": "log_1791896665652",
+      "timestamp": "2026-10-13T13:04:25.652Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node IT",
+      "clock": 2509
+    },
+    {
+      "id": "log_1791896665635",
+      "timestamp": "2026-10-13T13:04:25.635Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2509
+    },
+    {
+      "id": "log_1791896664089",
+      "timestamp": "2026-10-13T13:04:24.089Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 2509
+    },
+    {
+      "id": "log_1791896663289",
+      "timestamp": "2026-10-13T13:04:23.289Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 2509
+    },
+    {
+      "id": "log_1791891087099",
+      "timestamp": "2026-10-13T11:31:27.099Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Phase 3D Final Verification",
+      "clock": 655
+    },
+    {
+      "id": "log_1791891085584",
+      "timestamp": "2026-10-13T11:31:25.584Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 653
+    },
+    {
+      "id": "log_1791891084778",
+      "timestamp": "2026-10-13T11:31:24.778Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 653
+    },
+    {
+      "id": "log_1791891081227",
+      "timestamp": "2026-10-13T11:31:21.227Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node IT",
+      "clock": 652
+    },
+    {
+      "id": "log_1791891080419",
+      "timestamp": "2026-10-13T11:31:20.419Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node IT",
+      "clock": 652
+    },
+    {
+      "id": "log_1791891078884",
+      "timestamp": "2026-10-13T11:31:18.884Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Mutex Deletion Test File",
+      "clock": 650
+    },
+    {
+      "id": "log_1791891065824",
+      "timestamp": "2026-10-13T11:31:05.824Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Phase3C Regression Resource",
+      "clock": 644
+    },
+    {
+      "id": "log_1791891064996",
+      "timestamp": "2026-10-13T11:31:04.996Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 642
+    },
+    {
+      "id": "log_1791891064196",
+      "timestamp": "2026-10-13T11:31:04.196Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 642
+    },
+    {
+      "id": "log_1791891063380",
+      "timestamp": "2026-10-13T11:31:03.380Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 642
+    },
+    {
+      "id": "log_1791891062577",
+      "timestamp": "2026-10-13T11:31:02.577Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 642
+    },
+    {
+      "id": "log_1791891061760",
+      "timestamp": "2026-10-13T11:31:01.760Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 641
+    },
+    {
+      "id": "log_1791891060945",
+      "timestamp": "2026-10-13T11:31:00.945Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 641
+    },
+    {
+      "id": "log_1791891058927",
+      "timestamp": "2026-10-13T11:30:58.927Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 640
+    },
+    {
+      "id": "log_1791891058126",
+      "timestamp": "2026-10-13T11:30:58.126Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 640
+    },
+    {
+      "id": "log_1791891055059",
+      "timestamp": "2026-10-13T11:30:55.059Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node CE",
+      "clock": 639
+    },
+    {
+      "id": "log_1791891053234",
+      "timestamp": "2026-10-13T11:30:53.234Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node IT",
+      "clock": 639
+    },
+    {
+      "id": "log_1791891052431",
+      "timestamp": "2026-10-13T11:30:52.431Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node IT",
+      "clock": 638
+    },
+    {
+      "id": "log_1791891052420",
+      "timestamp": "2026-10-13T11:30:52.420Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 638
+    },
+    {
+      "id": "log_1791891050895",
+      "timestamp": "2026-10-13T11:30:50.895Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 638
+    },
+    {
+      "id": "log_1791891050096",
+      "timestamp": "2026-10-13T11:30:50.096Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 637
+    },
+    {
+      "id": "log_1791890643148",
+      "timestamp": "2026-10-13T11:24:03.148Z",
+      "event": "REPLICA_RECEIVED",
+      "details": "Replica of res_1791890643143_hejlg from IT, verified=true",
+      "clock": 502,
+      "vectorClock": {
+        "CE": 377,
+        "IT": 377,
+        "E&TC": 0
+      }
+    },
+    {
+      "id": "log_1791890642117",
+      "timestamp": "2026-10-13T11:24:02.117Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Phase3B Vector Clock Test",
+      "clock": 497
+    },
+    {
+      "id": "log_1791890171022",
+      "timestamp": "2026-10-13T11:16:11.022Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Phase 3D Final Verification",
+      "clock": 337
+    },
+    {
+      "id": "log_1791890169506",
+      "timestamp": "2026-10-13T11:16:09.506Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 336
+    },
+    {
+      "id": "log_1791890168706",
+      "timestamp": "2026-10-13T11:16:08.706Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 335
+    },
+    {
+      "id": "log_1791890165162",
+      "timestamp": "2026-10-13T11:16:05.162Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node IT",
+      "clock": 334
+    },
+    {
+      "id": "log_1791890164363",
+      "timestamp": "2026-10-13T11:16:04.363Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node IT",
+      "clock": 334
+    },
+    {
+      "id": "log_1791890162812",
+      "timestamp": "2026-10-13T11:16:02.812Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Mutex Deletion Test File",
+      "clock": 332
+    },
+    {
+      "id": "log_1791890116614",
+      "timestamp": "2026-10-13T11:15:16.614Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 316
+    },
+    {
+      "id": "log_1791890115846",
+      "timestamp": "2026-10-13T11:15:15.846Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 316
+    },
+    {
+      "id": "log_1791890049957",
+      "timestamp": "2026-10-13T11:14:09.957Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created T",
+      "clock": 315
+    },
+    {
+      "id": "log_1791890006353",
+      "timestamp": "2026-10-13T11:13:26.353Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Phase 3D Final Verification",
+      "clock": 299
+    },
+    {
+      "id": "log_1791890004843",
+      "timestamp": "2026-10-13T11:13:24.843Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 297
+    },
+    {
+      "id": "log_1791890004041",
+      "timestamp": "2026-10-13T11:13:24.041Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 297
+    },
+    {
+      "id": "log_1791890000492",
+      "timestamp": "2026-10-13T11:13:20.492Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node IT",
+      "clock": 296
+    },
+    {
+      "id": "log_1791889999693",
+      "timestamp": "2026-10-13T11:13:19.693Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node IT",
+      "clock": 295
+    },
+    {
+      "id": "log_1791889998140",
+      "timestamp": "2026-10-13T11:13:18.140Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Mutex Deletion Test File",
+      "clock": 294
+    },
+    {
+      "id": "log_1791889905861",
+      "timestamp": "2026-10-13T11:11:45.861Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 262
+    },
+    {
+      "id": "log_1791889905080",
+      "timestamp": "2026-10-13T11:11:45.080Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 262
+    },
+    {
+      "id": "log_1791889655667",
+      "timestamp": "2026-10-13T11:07:35.667Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Phase3C Regression Resource",
+      "clock": 261
+    },
+    {
+      "id": "log_1791889654839",
+      "timestamp": "2026-10-13T11:07:34.839Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 260
+    },
+    {
+      "id": "log_1791889654035",
+      "timestamp": "2026-10-13T11:07:34.035Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 260
+    },
+    {
+      "id": "log_1791889653218",
+      "timestamp": "2026-10-13T11:07:33.218Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 260
+    },
+    {
+      "id": "log_1791889652414",
+      "timestamp": "2026-10-13T11:07:32.414Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 259
+    },
+    {
+      "id": "log_1791889651598",
+      "timestamp": "2026-10-13T11:07:31.598Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 259
+    },
+    {
+      "id": "log_1791889650797",
+      "timestamp": "2026-10-13T11:07:30.797Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 259
+    },
+    {
+      "id": "log_1791889648780",
+      "timestamp": "2026-10-13T11:07:28.780Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 258
+    },
+    {
+      "id": "log_1791889647978",
+      "timestamp": "2026-10-13T11:07:27.978Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 258
+    },
+    {
+      "id": "log_1791889644913",
+      "timestamp": "2026-10-13T11:07:24.913Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node CE",
+      "clock": 257
+    },
+    {
+      "id": "log_1791889643100",
+      "timestamp": "2026-10-13T11:07:23.100Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node IT",
+      "clock": 256
+    },
+    {
+      "id": "log_1791889642299",
+      "timestamp": "2026-10-13T11:07:22.299Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node IT",
+      "clock": 256
+    },
+    {
+      "id": "log_1791889642278",
+      "timestamp": "2026-10-13T11:07:22.278Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 256
+    },
+    {
+      "id": "log_1791889640749",
+      "timestamp": "2026-10-13T11:07:20.749Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 255
+    },
+    {
+      "id": "log_1791889639949",
+      "timestamp": "2026-10-13T11:07:19.949Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 255
+    },
+    {
+      "id": "log_1791889612888",
+      "timestamp": "2026-10-13T11:06:52.888Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 246
+    },
+    {
+      "id": "log_1791889612117",
+      "timestamp": "2026-10-13T11:06:52.117Z",
+      "event": "COORDINATOR_ADOPTED",
+      "details": "Adopted leader Node E&TC",
+      "clock": 246
+    },
+    {
+      "id": "log_1791889363524",
+      "timestamp": "2026-10-13T11:02:43.524Z",
+      "event": "RESOURCE_CREATED",
+      "details": "Created Phase3C Regression Resource",
+      "clock": 245
+    },
+    {
+      "id": "log_1791889362692",
+      "timestamp": "2026-10-13T11:02:42.692Z",
+      "event": "ELECTION_WON",
+      "details": "Leader is now Node E&TC",
+      "clock": 244
+    }
+  ],
+  "nodeInfo": {
+    "nodeId": "node-ce",
+    "department": "CE",
+    "status": "ONLINE",
+    "lastPing": "2026-10-13T10:18:51.965Z",
+    "lamportClock": 3927,
+    "vectorClock": {
+      "CE": 3802,
+      "IT": 377,
+      "E&TC": 0
+    },
+    "leader": "E&TC"
+  }
+}

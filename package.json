@@ -1,0 +1,36 @@
+{
+  "name": "notesync-distributed-system",
+  "version": "1.0.0",
+  "description": "NoteSync - Distributed Student Notes Sharing System for FA-1 & FA-2 Assessment",
+  "main": "services/api-gateway/server.js",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix client",
+    "start:gateway": "node services/api-gateway/server.js",
+    "start:node-ce": "node services/node-ce/server.js",
+    "start:node-it": "node services/node-it/server.js",
+    "start:node-etc": "node services/node-etc/server.js",
+    "start:nodes": "concurrently \"npm run start:node-ce\" \"npm run start:node-it\" \"npm run start:node-etc\"",
+    "start:backend": "concurrently \"npm run start:gateway\" \"npm run start:nodes\"",
+    "start:client": "cd client && npm run dev",
+    "start:all": "concurrently -k -n \"GATEWAY,NODE-CE,NODE-IT,NODE-ETC,CLIENT\" -c \"blue,green,yellow,magenta,cyan\" \"npm run start:gateway\" \"npm run start:node-ce\" \"npm run start:node-it\" \"npm run start:node-etc\" \"npm run start:client\"",
+    "test:api": "node scripts/test-api.js"
+  },
+  "keywords": [
+    "distributed-systems",
+    "lamport-clock",
+    "bully-algorithm",
+    "rpc",
+    "notes-sharing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "ws": "^8.17.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^8.2.2"
+  }
+}
